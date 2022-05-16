@@ -1,0 +1,13 @@
+*
+{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../font/Raleway-Italic-VariableFont_wght.ttf");
+    src: url("../font/Raleway-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
