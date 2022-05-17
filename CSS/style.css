@@ -11,3 +11,26 @@
     font-style: normal;
 }
 
+header
+{
+    display: flex;
+}
+
+nav
+{
+    width: 30%;
+    display: flex;
+    justify-content:space-around;
+    margin-left: 60%;
+    margin-top: 3%;
+}
+
+img
+{
+    display: flex;
+    width: 7%;
+    height: 15%;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
