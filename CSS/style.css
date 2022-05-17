@@ -23,9 +23,10 @@ header, nav, img
 nav
 {
     width: 30%;
+    height: 45px;
     justify-content:space-around;
+    align-items: flex-end;
     margin-left: 60%;
-    margin-top: 3%;
 }
 
 nav a
@@ -33,13 +34,20 @@ nav a
     text-decoration: none;
     color: black;
     font-size: 12px;
+}  
+
+nav a:hover
+{
+    border-top: 4px solid #0065FC;
+    color: #0065FC;
+    padding-top: 28px;
 }
 
 img
 {
     width: 7%;
     height: 15%;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 3%;
 }
 
