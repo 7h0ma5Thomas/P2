@@ -11,6 +11,8 @@
     font-style: normal;
 }
 
+/* Header */
+
 header, nav, img
 {
     display: flex;
