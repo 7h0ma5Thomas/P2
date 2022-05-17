@@ -1,6 +1,8 @@
 *
 {
     box-sizing: border-box;
+    font-family: Raleway, 'Courrier New', 'Trebuchet MS', sans-serif;
+    font-size: medium;
 }
 
 @font-face {
@@ -24,6 +26,13 @@ nav
     justify-content:space-around;
     margin-left: 60%;
     margin-top: 3%;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
 }
 
 img
