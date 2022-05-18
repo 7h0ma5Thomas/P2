@@ -73,22 +73,22 @@ i, p
     display: flex;
 }
 
-.fa-solid
+.fa-location-dot
 {
     font-size: 22px;
-    border: rgb(242, 242, 242) solid 1px;
+    border: #F2F2F2 solid 1px;
     border-radius: 15px 0px 0px 15px;
     width: 70px;
     height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(242, 242, 242);
+    background-color: #F2F2F2;
 }
 
 #search
 {
-    border: rgb(242, 242, 242) solid 1px;
+    border: #F2F2F2 solid 1px;
     width: 300px;
     height: 55px;
     font-weight: bold;
@@ -104,8 +104,59 @@ i, p
     color: white;
 }
 
-h2, div a
+div, h2, #eco, #fam, #rom, #ani, .fa-money-bill-wave
 {
-    font-size: 22px;
+    display: flex;
+    align-items: center;  
 }
 
+h2
+{
+    font-size: 22px;
+    margin: 20px 0px 0px 10px;
+    height: 50px;
+}
+
+#eco, #fam, #rom, #ani
+{
+    font-size: 22px;
+    font-weight: bold;
+    border: #F2F2F2 solid 3px;
+    border-left: none;
+    border-radius: 50px;
+    margin: 20px 0px 0px 35px;
+    text-decoration: none;
+    color: black;
+    height: 60px;
+    width: 250px;  
+}
+
+#fam
+{
+    width: 185px;
+}
+
+#rom
+{
+    width: 230px;
+}
+
+#ani
+{
+    width: 300px;
+}
+
+.fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog
+{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 22px;
+    color: #0065FC;
+    border: #DEEBFF solid 1px;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    background-color: #DEEBFF;
+    margin-right: 15px;  
+}
