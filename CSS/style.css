@@ -184,3 +184,15 @@ h2
     align-items: center;
     margin-top: 45px;
 }
+
+/* section 2 */
+
+#accommodation
+{
+    border: black solid 2px;
+    width: 1100px;
+    height: 1000px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 35px;
+}
