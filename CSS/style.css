@@ -131,7 +131,7 @@ h2
     width: 250px;  
 }
 
-i:hover, #eco:hover, #fam:hover, #rom:hover, #ani:hover
+#eco:hover, #fam:hover, #rom:hover, #ani:hover, .fa-money-bill-wave:hover, .fa-child-reaching:hover, .fa-heart:hover, .fa-dog:hover
 {
     color: white;
     text-decoration: underline;
