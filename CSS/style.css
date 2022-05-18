@@ -35,7 +35,6 @@ nav a
     color: black;
     font-size: 20px;
     padding: 43px 40px 0px 40px;
-    border-top: 4px solid transparent; /*bordure présente mais invisible */
 }  
 
 nav a:hover
@@ -61,7 +60,6 @@ main
 h1
 {
     font-size: 30px;
-    font-weight: bold;
     margin-top: 50px;
 }
 
@@ -73,7 +71,6 @@ p
 i, p
 {
     display: flex;
-    justify-content: flex-start;
 }
 
 .fa-solid
@@ -83,8 +80,9 @@ i, p
     border-radius: 15px 0px 0px 15px;
     width: 70px;
     height: 55px;
-    padding-top: 15px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(242, 242, 242);
 }
 
