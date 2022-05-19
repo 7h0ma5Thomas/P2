@@ -195,56 +195,61 @@ h2
 
 /* section 2 */
 
-.card 
+.card
 {
-    /* Add shadows to create the "card" effect */
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 20px; /* 20px rounded corners */
-    width: 300px;
     height: 250px;
-    padding: 6px;
+    width: 300px;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
+    padding: 7px;
+    flex-wrap: wrap;  
+}
 
-    border: #0065FC solid 2px;
-}
-  
-  /* On mouse-over, add a deeper shadow */
-.card:hover 
+.card-link
 {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    text-decoration: none;
+    color: black;
 }
-  
-  /* Add some padding inside the card container */
-.container 
+
+.card-header
 {
+    overflow: hidden;
+    height: 150px;
+    border-radius: 18px 18px 0 0;
+}
+
+.card-body
+{
+    width: 284px;
+    height: 150px;
+    align-items: flex-start;   
     flex-direction: column;
-    justify-content: flex-end;
-    width: 285px;
-    height: 30px;
+}    
 
-    border: red solid 2px;
+.card-title, .card-price, .card-star
+{
+   font-size: 20px;
+   padding-left: 10px;
+   margin-top: 3px;
+} 
+
+.card-title
+{
+    font-weight: bold;
 }
 
-.price
+.card-star i
 {
     font-size: 18px;
-    padding-left: 10px;
-    border: black solid 2px;
-    width: 285px;
-    height: 30px;
+    color: #0065FC;
 }
 
-/* Add rounded corners to the top left and the top right corner of the image */
-#cann 
+.card-last i
 {
-    border-radius: 15px 15px 0px 0px;
-    overflow: hidden;
-    height: 140px;
-    margin-bottom: 10px;
-    
-    border: greenyellow solid 2px;
+    color: #F2F2F2;
 }
+
 
 
 
