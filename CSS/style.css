@@ -258,7 +258,70 @@ h2
     color: #F2F2F2;
 }
 
+/* section 3*/
 
+.card-2
+{
+    height: 250px;
+    width: 300px;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
+    padding: 0.4%;
+    flex-wrap: wrap;  
+}
+
+.card-2:hover, #sun:hover
+{
+    box-shadow: 0px 0px 40px rgba(0,101,252, 0.5);
+    transition-property: filter width; 
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.card-2-link
+{
+    text-decoration: none;
+    color: black;
+}
+
+.card-2-header
+{
+    overflow: hidden;
+    height: 150px;
+    border-radius: 18px 18px 0 0;
+}
+
+.card-2-body
+{
+    width: 284px;
+    height: 150px;
+    align-items: flex-start;   
+    flex-direction: column;
+}    
+
+.card-2-title, .card-2-price, .card-2-star
+{
+   font-size: 20px;
+   padding-left: 5%;
+   margin-top: 2%;
+} 
+
+.card-2-title
+{
+    font-weight: bold;
+}
+
+.card-2-star i
+{
+    font-size: 18px;
+    color: #0065FC;
+}
+
+.card-2-last i
+{
+    color: #F2F2F2;
+}
 
 
 
