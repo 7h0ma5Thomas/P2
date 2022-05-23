@@ -15,7 +15,7 @@
 
 /* Header */
 
-header, nav, img
+header, nav
 {
     display: flex;
 }
@@ -52,7 +52,8 @@ nav a:hover
 
 main
 {
-    margin-left: 35px;
+    margin: 0% 3% 0% 3%;
+    
 }
 
 
@@ -196,6 +197,24 @@ h2
 
 /* section 2 */
 
+.big
+{
+    display: flex;
+    border: orange solid 2px;
+    height: 1000px;
+    justify-content: space-between;
+    
+}
+
+.accommodation
+{
+    border: black solid 4px;
+    width: 64%;
+    display: flex;
+    
+    
+}
+
 .card
 {
     height: 250px;
@@ -204,7 +223,8 @@ h2
     border-radius: 25px;
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
     padding: 0.4%;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
+      
 }
 
 .card:hover, #cann:hover
@@ -263,9 +283,17 @@ h2
     color: #F2F2F2;
 }
 
-/* section 3*/
+.popular
+{
+    display: flex;
+    border: greenyellow solid 4px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 33%;
+}
 
-.main
+.tile
 {
     display: flex;
     border: black solid 4 px;
@@ -273,17 +301,17 @@ h2
     width: 500px;
     border-radius: 25px;
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
-    padding: 0.4%;
+    padding: 1.2%;
     overflow: hidden;
 }
 
-.main-link
+.tile-link
 {
     text-decoration: none;
     color: black;
 }
 
-.main:hover
+.tile:hover
 {
     box-shadow: 0px 0px 40px rgba(0,101,252, 0.5);
     transition-property: filter width; 
@@ -291,7 +319,7 @@ h2
     transition-timing-function: ease;
 }
 
-#sun
+#pics
 {
     overflow: hidden;
     height: 175px;
@@ -330,3 +358,7 @@ i
     color: #0065FC;
 }
 
+.star-end i
+{
+    color: #F2F2F2  
+}
