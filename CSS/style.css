@@ -214,6 +214,7 @@ h2
     justify-content: space-around;
     flex-wrap: wrap;
     align-items:center;
+    padding: 2%;   
 }
 
 .card
@@ -273,7 +274,8 @@ h2
 {
     font-size: 18px;  
 }
-.card-star i
+
+i
 {
     font-size: 18px;
     color: #0065FC;
