@@ -200,19 +200,20 @@ h2
 .big
 {
     display: flex;
-    border: orange solid 2px;
-    height: 1000px;
+    height: 800px;
     justify-content: space-between;
     
 }
 
 .accommodation
 {
-    border: black solid 4px;
+    background-color: #F2F2F2;
+    border-radius: 4%;
     width: 64%;
     display: flex;
-    
-    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:center;
 }
 
 .card
@@ -222,12 +223,12 @@ h2
     display: flex;
     border-radius: 25px;
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
-    padding: 0.4%;
+    padding: 0.6%;
     flex-wrap: wrap;
       
 }
 
-.card:hover, #cann:hover
+.card:hover, #photos:hover
 {
     box-shadow: 0px 0px 40px rgba(0,101,252, 0.5);
     transition-property: filter width; 
@@ -286,7 +287,8 @@ h2
 .popular
 {
     display: flex;
-    border: greenyellow solid 4px;
+    border-radius: 5%;
+    background-color: #F2F2F2;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
@@ -295,13 +297,12 @@ h2
 
 .tile
 {
-    display: flex;
-    border: black solid 4 px;
+    display: flex;;
     height: 190px;
-    width: 500px;
+    width: 450px;
     border-radius: 25px;
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
-    padding: 1.2%;
+    padding: 1.4%;
     overflow: hidden;
 }
 
