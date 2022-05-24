@@ -400,3 +400,35 @@ i
 {
     color: #F2F2F2  
 }
+
+/* Section 3*/
+
+.activities
+{
+    border: black solid 4px;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column wrap;
+    align-content: space-between;
+}
+
+.mosaic
+{
+  width: 100%;  
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.element
+{
+    border: #0065FC solid 2px;
+    width: 20%;
+    height: 40%;
+    margin: 2%;
+}
+
+.element:nth-child()
