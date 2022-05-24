@@ -313,6 +313,23 @@ i
     color: black;
 }
 
+.pop
+{
+    border: #0065FC solid 2px;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-end;
+    display: flex;
+    padding-left: 8%;
+}
+
+.pop i
+{
+    
+}
+
 .popular
 {
     display: flex;
