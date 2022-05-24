@@ -217,14 +217,21 @@ h2
     border: black solid 2px; 
 }
 
-.acc
+.acc, .more
 {
-    display: flex;
-    position: absolute;
-    top: 63%;
-    width: 55%;
     height: 8%;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
     align-items: flex-end;
+    padding-left: 1%;
+    border: #0065FC solid 2px;
+}
+
+.show
+{
+    text-decoration: none;
+    color: black;
 }
 
 .card
@@ -235,9 +242,7 @@ h2
     border-radius: 25px;
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
     padding: 0.6%;
-    flex-wrap: wrap;
-    
-      
+    flex-wrap: wrap;    
 }
 
 .card:hover, #photos:hover
@@ -297,22 +302,6 @@ i
     color: #F2F2F2;
 }
 
-.more
-{
-    display: flex;
-    height: 5%;
-    width: 55%;
-    position: absolute;
-    top: 147%;
-    align-items: flex-end;
-}
-
-.show
-{
-    text-decoration: none;
-    color: black;
-}
-
 .pop
 {
     border: #0065FC solid 2px;
@@ -321,7 +310,6 @@ i
     display: flex;
     align-self: flex-start;
     align-items: flex-end;
-    display: flex;
     padding-left: 8%;
 }
 
