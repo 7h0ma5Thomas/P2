@@ -204,6 +204,8 @@ h2
     justify-content: space-between;
 }
 
+/* Accommodations in Marseille*/
+
 .accommodation
 {
     /*background-color: #F2F2F2;*/
@@ -302,6 +304,7 @@ i
     color: #F2F2F2;
 }
 
+/* The most popular */
 .pop
 {
     border: #0065FC solid 2px;
@@ -327,7 +330,7 @@ i
     flex-direction: column;
     justify-content: space-around;
     width: 33%;
-    padding: 2% 4% 2% 4%;
+    padding: 1% 4% 1% 4%;
 }
 
 .tile
