@@ -200,7 +200,7 @@ h2
 .big
 {
     display: flex;
-    height: 800px;
+    height: 750px;
     justify-content: space-between;
 }
 
@@ -215,7 +215,7 @@ h2
     justify-content: space-around;
     flex-wrap: wrap;
     align-items:center;
-    padding: 2%;  
+    padding: 3%;  
     border: black solid 2px; 
 }
 
@@ -243,7 +243,8 @@ h2
     border-radius: 25px/25px;
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
     padding: 0.6%;
-    flex-wrap: wrap;    
+    flex-wrap: wrap; 
+    margin-bottom: 3%;   
 }
 
 .card:hover, #photos:hover
@@ -306,23 +307,30 @@ i
     background-color: #F2F2F2;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 33%;
     padding: 1% 4% 1% 4%;
 }
 
 .pop
 {
-    border: #0065FC solid 2px;
-    height: 8%;
-    width: 100%;
-    align-items: flex-end;
-    
+    height: 9%;
+    width: 110%;
+    justify-content: space-between; 
+    display: flex;
+}
+
+.pop h1
+{
+    margin-top: 5%;
 }
 
 .pop i
 {
-   color: black; 
+   color: black;
+   position: relative;
+   left: 135px;
+   font-size: 25px;
 }
 
 .tile
