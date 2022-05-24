@@ -213,7 +213,18 @@ h2
     justify-content: space-around;
     flex-wrap: wrap;
     align-items:center;
-    padding: 2%;   
+    padding: 2%;  
+    border: black solid 2px; 
+}
+
+.acc
+{
+    display: flex;
+    position: absolute;
+    top: 63%;
+    width: 55%;
+    height: 8%;
+    align-items: flex-end;
 }
 
 .card
