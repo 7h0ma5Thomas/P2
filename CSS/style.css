@@ -227,10 +227,9 @@ h2
     align-self: flex-start;
     align-items: flex-end;
     padding-left: 1%;
-    border: #0065FC solid 2px;
 }
 
-.show
+.show, .card-link
 {
     text-decoration: none;
     color: black;
@@ -253,12 +252,6 @@ h2
     transition-property: filter width; 
     transition-duration: .3s;
     transition-timing-function: ease;
-}
-
-.card-link
-{
-    text-decoration: none;
-    color: black;
 }
 
 .card-header
@@ -305,21 +298,6 @@ i
 }
 
 /* The most popular */
-.pop
-{
-    border: #0065FC solid 2px;
-    height: 8%;
-    width: 100%;
-    display: flex;
-    align-self: flex-start;
-    align-items: flex-end;
-    padding-left: 8%;
-}
-
-.pop i
-{
-    
-}
 
 .popular
 {
@@ -333,9 +311,22 @@ i
     padding: 1% 4% 1% 4%;
 }
 
+.pop
+{
+    border: #0065FC solid 2px;
+    height: 8%;
+    width: 100%;
+    align-items: flex-end;
+    
+}
+
+.pop i
+{
+   color: black; 
+}
+
 .tile
 {
-    display: flex;;
     height: 190px;
     width: 450px;
     border-radius: 25px/25px;
