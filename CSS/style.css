@@ -297,6 +297,22 @@ i
     color: #F2F2F2;
 }
 
+.more
+{
+    display: flex;
+    height: 5%;
+    width: 55%;
+    position: absolute;
+    top: 147%;
+    align-items: flex-end;
+}
+
+.show
+{
+    text-decoration: none;
+    color: black;
+}
+
 .popular
 {
     display: flex;
