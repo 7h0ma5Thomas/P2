@@ -434,6 +434,20 @@ i
     border: #0065FC solid 2px;
     width: 22%;
     height: 100%;
+    flex-direction: column;
+
+}
+
+.element img
+{
+    margin-top: 80%;
+}
+
+.element h2
+{
+    display: flex;
+    border: red solid 1px;
+    margin-right: 60%;
 }
 
 
