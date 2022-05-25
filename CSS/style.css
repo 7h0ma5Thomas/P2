@@ -425,19 +425,26 @@ i
     margin-top: ;
 }
 
-.element 
+.element, .item
 {
     width: 22%;
     height: 100%;
     flex-direction: column;
     overflow: hidden;
     justify-content: space-between;
+    border-radius: 8%/6%;
+}
+
+.element
+{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 .element h2
 {
     width: 100%;
     margin-bottom: 2%;
+    margin-left: 15%;
 }
 
 .vieux, .calanques
@@ -451,12 +458,17 @@ i
 {
     height: 60%;
     flex-direction: column;
+    border-radius: 8%/10%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .bottom
 {
     flex-direction: column;
     height: 180px;
+    border-radius: 8%/10%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 .fort, .island
@@ -471,12 +483,17 @@ i
 {
     flex-direction: column;
     height: 47%;
+    border-radius: 8%/6%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 .down
 {
     height: 47%;
     flex-direction: column; 
+    overflow: hidden;
+    border-radius: 8%/6%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 .dame, .park
