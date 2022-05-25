@@ -1,10 +1,12 @@
-* {
+* 
+{
     box-sizing: border-box;
     font-family: Raleway, 'Courrier New', 'Trebuchet MS', sans-serif;
     font-size: 10px;
 }
 
-@font-face {
+@font-face 
+{
     font-family: "Raleway";
     src: url("../font/Raleway-Italic-VariableFont_wght.ttf");
     src: url("../font/Raleway-VariableFont_wght.ttf");
@@ -15,11 +17,13 @@
 /* Header */
 
 header,
-nav {
+nav 
+{
     display: flex;
 }
 
-nav {
+nav 
+{
     width: 30%;
     height: 70px;
     justify-content: space-evenly;
@@ -27,25 +31,29 @@ nav {
     margin-left: 60%;
 }
 
-nav a {
+nav a 
+{
     text-decoration: none;
     color: black;
     font-size: 20px;
     padding: 43px 40px 0px 40px;
 }
 
-nav a:hover {
+nav a:hover 
+{
     border-top: 4px solid #0065FC;
     color: #0065FC;
 }
 
-#logo {
+#logo 
+{
     width: 140px;
     height: 55px;
     margin: 3% 0% 0% 3%;
 }
 
-main {
+main 
+{
     margin: 0% 3% 0% 3%;
 
 }
@@ -53,21 +61,25 @@ main {
 
 /* Section 1 */
 
-h1 {
+h1 
+{
     font-size: 30px;
     margin-top: 50px;
 }
 
-p {
+p 
+{
     font-size: 22px;
 }
 
 i,
-p {
+p 
+{
     display: flex;
 }
 
-.fa-location-dot {
+.fa-location-dot 
+{
     font-size: 22px;
     border: #F2F2F2 solid 1px;
     border-radius: 15px 0px 0px 15px;
@@ -79,14 +91,16 @@ p {
     background-color: #F2F2F2;
 }
 
-#search {
+#search 
+{
     border: #F2F2F2 solid 1px;
     width: 300px;
     height: 55px;
     font-weight: bold;
 }
 
-#button {
+#button 
+{
     background-color: #0065FC;
     border: #0065FC solid 1px;
     width: 150px;
@@ -95,21 +109,21 @@ p {
     color: white;
 }
 
-div,
-h2,
-.filter,
-.fa-money-bill-wave {
+div, h2, .filter, .fa-money-bill-wave 
+{
     display: flex;
     align-items: center;
 }
 
-h2 {
+h2 
+{
     font-size: 22px;
     margin: 20px 0px 0px 10px;
     height: 50px;
 }
 
-.filter {
+.filter 
+{
     font-size: 22px;
     font-weight: bold;
     border: #F2F2F2 solid 3px;
@@ -122,29 +136,31 @@ h2 {
     width: 250px;
 }
 
-.filter:hover .fa-solid, .filter:hover {
+.filter:hover .fa-solid, .filter:hover 
+{
     color: white;
     text-decoration: underline;
     border: rgb(184, 59, 59) solid 1px;
     background-color: rgb(184, 59, 59);
 }
 
-#fam {
+#fam 
+{
     width: 185px;
 }
 
-#rom {
+#rom 
+{
     width: 230px;
 }
 
-#ani {
+#ani 
+{
     width: 300px;
 }
 
-.fa-money-bill-wave,
-.fa-child-reaching,
-.fa-heart,
-.fa-dog {
+.fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog 
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,12 +174,13 @@ h2 {
     margin-right: 15px;
 }
 
-.info,
-.fa-info {
+.info, .fa-info 
+{
     display: flex;
 }
 
-.fa-info {
+.fa-info 
+{
     font-size: 18px;
     color: #0065FC;
     border: #F2F2F2 solid 2px;
@@ -175,14 +192,16 @@ h2 {
     margin-right: 15px;
 }
 
-.info {
+.info 
+{
     align-items: center;
     margin-top: 45px;
 }
 
 /* section 2 */
 
-.big {
+.big 
+{
     display: flex;
     height: 750px;
     justify-content: space-between;
@@ -190,7 +209,8 @@ h2 {
 
 /* Accommodations in Marseille*/
 
-.accommodation {
+.accommodation 
+{
     background-color: #F2F2F2;
     border-radius: 3%/4%;
     width: 64%;
@@ -199,11 +219,10 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     padding: 3%;
-    border: black solid 2px;
 }
 
-.acc,
-.more {
+.acc, .more 
+{
     height: 8%;
     width: 100%;
     display: flex;
@@ -212,13 +231,19 @@ h2 {
     padding-left: 1%;
 }
 
-.show,
-.card-link {
+h2
+{
+    margin-bottom: 1%;
+}
+
+.show, .card-link 
+{
     text-decoration: none;
     color: black;
 }
 
-.card {
+.card 
+{
     height: 250px;
     width: 300px;
     display: flex;
@@ -229,55 +254,61 @@ h2 {
     margin-bottom: 3%;
 }
 
-.card:hover,
-.photos:hover {
+.card:hover, .photos:hover 
+{
     box-shadow: 0px 0px 40px rgba(0, 101, 252, 0.5);
     transition-property: filter width;
     transition-duration: .3s;
     transition-timing-function: ease;
 }
 
-.card-header {
+.card-header 
+{
     overflow: hidden;
     height: 150px;
     border-radius: 18px 18px 0 0;
 }
 
-.card-body {
+.card-body 
+{
     width: 284px;
     height: 150px;
     align-items: flex-start;
     flex-direction: column;
 }
 
-.card-title,
-.card-price,
-.card-star {
+.card-title, .card-price, .card-star 
+{
     font-size: 20px;
     padding-left: 5%;
     margin-top: 2%;
 }
 
-.card-title {
+.card-title 
+{
     font-weight: bold;
 }
 
-.card-price {
+.card-price 
+{
     font-size: 18px;
 }
 
-i {
+i 
+{
     font-size: 18px;
     color: #0065FC;
 }
 
-.card-last i {
+.card-last i 
+{
     color: #e2e2e2;
 }
 
 /* The most popular */
 
-.popular {
+.popular 
+{
     display: flex;
     border-radius: 7%/5%;
     background-color: #F2F2F2;
@@ -288,25 +319,29 @@ i {
     padding: 1% 4% 1% 4%;
 }
 
-.pop {
+.pop 
+{
     height: 9%;
     width: 110%;
     justify-content: space-between;
     display: flex;
 }
 
-.pop h1 {
-    margin-top: 5%;
+.pop h2 
+{
+    margin-top: 4%;
 }
 
-.pop i {
+.pop i 
+{
     color: black;
     position: relative;
     left: 135px;
     font-size: 25px;
 }
 
-.tile {
+.tile 
+{
     height: 190px;
     width: 450px;
     border-radius: 25px/25px;
@@ -315,25 +350,29 @@ i {
     overflow: hidden;
 }
 
-.tile-link {
+.tile-link 
+{
     text-decoration: none;
     color: black;
 }
 
-.tile:hover {
+.tile:hover
+{
     box-shadow: 0px 0px 40px rgba(0, 101, 252, 0.5);
     transition-property: filter width;
     transition-duration: .3s;
     transition-timing-function: ease;
 }
 
-.pics {
+.pics
+ {
     overflow: hidden;
     height: 175px;
     border-radius: 18px 0px 0 18px;
 }
 
-.body {
+.body 
+{
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
@@ -341,32 +380,38 @@ i {
     padding: 3% 5%;
 }
 
-.title {
+.title 
+{
     font-weight: bold;
     font-size: 20px;
 }
 
-.price {
+.price 
+{
     font-size: 18px;
     margin-top: 4%;
 }
 
-.star {
+.star 
+{
     margin-top: 30%;
 }
 
-i {
+i 
+{
     font-size: 18px;
     color: #0065FC;
 }
 
-.star-end i {
+.star-end i 
+{
     color: #e2e2e2;
 }
 
 /* Section 3*/
 
-.activities {
+.activities
+{
     border: black solid 4px;
     height: 800px;
     width: 100%;
@@ -375,7 +420,8 @@ i {
     align-content: space-between;
 }
 
-.mosaic {
+.mosaic 
+{
     width: 100%;
     height: 50%;
     display: flex;
@@ -384,7 +430,8 @@ i {
     justify-content: space-between;
 }
 
-.element {
+.element 
+{
     border: #0065FC solid 2px;
     width: 20%;
     height: 40%;
