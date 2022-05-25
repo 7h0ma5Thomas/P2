@@ -140,8 +140,8 @@ h2
 {
     color: white;
     text-decoration: underline;
-    border: rgb(184, 59, 59) solid 1px;
-    background-color: rgb(184, 59, 59);
+    border: #0065FC solid 1px;
+    background-color: #0065FC;
 }
 
 #fam 
