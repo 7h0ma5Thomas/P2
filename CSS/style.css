@@ -1,5 +1,4 @@
-*
-{
+* {
     box-sizing: border-box;
     font-family: Raleway, 'Courrier New', 'Trebuchet MS', sans-serif;
     font-size: 10px;
@@ -15,13 +14,12 @@
 
 /* Header */
 
-header, nav
-{
+header,
+nav {
     display: flex;
 }
 
-nav
-{
+nav {
     width: 30%;
     height: 70px;
     justify-content: space-evenly;
@@ -29,54 +27,47 @@ nav
     margin-left: 60%;
 }
 
-nav a
-{
+nav a {
     text-decoration: none;
     color: black;
     font-size: 20px;
     padding: 43px 40px 0px 40px;
-}  
+}
 
-nav a:hover
-{
+nav a:hover {
     border-top: 4px solid #0065FC;
     color: #0065FC;
 }
 
-#logo
-{
+#logo {
     width: 140px;
     height: 55px;
     margin: 3% 0% 0% 3%;
 }
 
-main
-{
+main {
     margin: 0% 3% 0% 3%;
-    
+
 }
 
 
 /* Section 1 */
 
-h1
-{
+h1 {
     font-size: 30px;
     margin-top: 50px;
 }
 
-p
-{
+p {
     font-size: 22px;
 }
 
-i, p
-{
+i,
+p {
     display: flex;
 }
 
-.fa-location-dot
-{
+.fa-location-dot {
     font-size: 22px;
     border: #F2F2F2 solid 1px;
     border-radius: 15px 0px 0px 15px;
@@ -88,16 +79,14 @@ i, p
     background-color: #F2F2F2;
 }
 
-#search
-{
+#search {
     border: #F2F2F2 solid 1px;
     width: 300px;
     height: 55px;
     font-weight: bold;
 }
 
-#button
-{
+#button {
     background-color: #0065FC;
     border: #0065FC solid 1px;
     width: 150px;
@@ -106,21 +95,21 @@ i, p
     color: white;
 }
 
-div, h2, #eco, #fam, #rom, #ani, .fa-money-bill-wave
-{
+div,
+h2,
+.filter,
+.fa-money-bill-wave {
     display: flex;
-    align-items: center;  
+    align-items: center;
 }
 
-h2
-{
+h2 {
     font-size: 22px;
     margin: 20px 0px 0px 10px;
     height: 50px;
 }
 
-#eco, #fam, #rom, #ani
-{
+.filter {
     font-size: 22px;
     font-weight: bold;
     border: #F2F2F2 solid 3px;
@@ -130,36 +119,34 @@ h2
     text-decoration: none;
     color: black;
     height: 60px;
-    width: 250px;  
+    width: 250px;
 }
 
-#eco:hover, #fam:hover, #rom:hover, #ani:hover, .fa-money-bill-wave:hover, .fa-child-reaching:hover, .fa-heart:hover, .fa-dog:hover
-{
+.filter:hover .fa-solid, .filter:hover {
     color: white;
     text-decoration: underline;
     border: rgb(184, 59, 59) solid 1px;
     background-color: rgb(184, 59, 59);
 }
 
-#fam
-{
+#fam {
     width: 185px;
 }
 
-#rom
-{
+#rom {
     width: 230px;
 }
 
-#ani
-{
+#ani {
     width: 300px;
 }
 
-.fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog
-{
+.fa-money-bill-wave,
+.fa-child-reaching,
+.fa-heart,
+.fa-dog {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     font-size: 22px;
     color: #0065FC;
@@ -168,16 +155,15 @@ h2
     height: 60px;
     width: 60px;
     background-color: #DEEBFF;
-    margin-right: 15px;  
+    margin-right: 15px;
 }
 
-.info, .fa-info
-{
+.info,
+.fa-info {
     display: flex;
 }
 
-.fa-info
-{
+.fa-info {
     font-size: 18px;
     color: #0065FC;
     border: #F2F2F2 solid 2px;
@@ -189,16 +175,14 @@ h2
     margin-right: 15px;
 }
 
-.info
-{
+.info {
     align-items: center;
     margin-top: 45px;
 }
 
 /* section 2 */
 
-.big
-{
+.big {
     display: flex;
     height: 750px;
     justify-content: space-between;
@@ -206,21 +190,20 @@ h2
 
 /* Accommodations in Marseille*/
 
-.accommodation
-{
-    /*background-color: #F2F2F2;*/
+.accommodation {
+    background-color: #F2F2F2;
     border-radius: 3%/4%;
     width: 64%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items:center;
-    padding: 3%;  
-    border: black solid 2px; 
+    align-items: center;
+    padding: 3%;
+    border: black solid 2px;
 }
 
-.acc, .more
-{
+.acc,
+.more {
     height: 8%;
     width: 100%;
     display: flex;
@@ -229,79 +212,72 @@ h2
     padding-left: 1%;
 }
 
-.show, .card-link
-{
+.show,
+.card-link {
     text-decoration: none;
     color: black;
 }
 
-.card
-{
+.card {
     height: 250px;
     width: 300px;
     display: flex;
     border-radius: 25px/25px;
-    box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     padding: 0.6%;
-    flex-wrap: wrap; 
-    margin-bottom: 3%;   
+    flex-wrap: wrap;
+    margin-bottom: 3%;
 }
 
-.card:hover, #photos:hover
-{
-    box-shadow: 0px 0px 40px rgba(0,101,252, 0.5);
-    transition-property: filter width; 
+.card:hover,
+.photos:hover {
+    box-shadow: 0px 0px 40px rgba(0, 101, 252, 0.5);
+    transition-property: filter width;
     transition-duration: .3s;
     transition-timing-function: ease;
 }
 
-.card-header
-{
+.card-header {
     overflow: hidden;
     height: 150px;
     border-radius: 18px 18px 0 0;
 }
 
-.card-body
-{
+.card-body {
     width: 284px;
     height: 150px;
-    align-items: flex-start;   
+    align-items: flex-start;
     flex-direction: column;
-}    
+}
 
-.card-title, .card-price, .card-star
-{
-   font-size: 20px;
-   padding-left: 5%;
-   margin-top: 2%;
-} 
+.card-title,
+.card-price,
+.card-star {
+    font-size: 20px;
+    padding-left: 5%;
+    margin-top: 2%;
+}
 
-.card-title
-{
+.card-title {
     font-weight: bold;
 }
 
-.card-price
-{
-    font-size: 18px;  
+.card-price {
+    font-size: 18px;
 }
 
-i
-{
+i {
     font-size: 18px;
     color: #0065FC;
 }
 
-.card-last i
-{
-    color: #F2F2F2;
+.card-last i {
+    color: #e2e2e2;
 }
 
 /* The most popular */
 
-.popular
-{
+.popular {
     display: flex;
     border-radius: 7%/5%;
     background-color: #F2F2F2;
@@ -312,99 +288,85 @@ i
     padding: 1% 4% 1% 4%;
 }
 
-.pop
-{
+.pop {
     height: 9%;
     width: 110%;
-    justify-content: space-between; 
+    justify-content: space-between;
     display: flex;
 }
 
-.pop h1
-{
+.pop h1 {
     margin-top: 5%;
 }
 
-.pop i
-{
-   color: black;
-   position: relative;
-   left: 135px;
-   font-size: 25px;
+.pop i {
+    color: black;
+    position: relative;
+    left: 135px;
+    font-size: 25px;
 }
 
-.tile
-{
+.tile {
     height: 190px;
     width: 450px;
     border-radius: 25px/25px;
-    box-shadow: 0px 0px 20px rgba(0,0,0, 0.1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     padding: 1.4%;
     overflow: hidden;
 }
 
-.tile-link
-{
+.tile-link {
     text-decoration: none;
     color: black;
 }
 
-.tile:hover
-{
-    box-shadow: 0px 0px 40px rgba(0,101,252, 0.5);
-    transition-property: filter width; 
+.tile:hover {
+    box-shadow: 0px 0px 40px rgba(0, 101, 252, 0.5);
+    transition-property: filter width;
     transition-duration: .3s;
     transition-timing-function: ease;
 }
 
-#pics
-{
+.pics {
     overflow: hidden;
     height: 175px;
-    border-radius: 18px 0px 0 18px; 
+    border-radius: 18px 0px 0 18px;
 }
 
-.body
-{
+.body {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
     height: 175px;
-    padding: 3% 5%; 
+    padding: 3% 5%;
 }
 
-.title
-{
+.title {
     font-weight: bold;
     font-size: 20px;
 }
 
-.price
-{
+.price {
     font-size: 18px;
     margin-top: 4%;
 }
 
-.star
-{
+.star {
     margin-top: 30%;
 }
 
-i
-{
+i {
     font-size: 18px;
     color: #0065FC;
 }
 
-.star-end i
-{
-    color: #F2F2F2  
+.star-end i {
+    color: #e2e2e2;
 }
 
 /* Section 3*/
 
-.activities
-{
+.activities {
     border: black solid 4px;
     height: 800px;
     width: 100%;
@@ -413,22 +375,18 @@ i
     align-content: space-between;
 }
 
-.mosaic
-{
-  width: 100%;  
-  height: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
+.mosaic {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
-.element
-{
+.element {
     border: #0065FC solid 2px;
     width: 20%;
     height: 40%;
     margin: 2%;
 }
-
-.element:nth-child()
