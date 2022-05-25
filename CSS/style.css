@@ -422,6 +422,7 @@ i
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 
 .element, .item
@@ -500,3 +501,31 @@ i
     overflow: hidden;
     object-fit: cover;
 }
+
+/* footer */
+
+footer
+{
+    display: flex;
+    height: 240px;
+    margin: auto;
+    background-color: #F2F2F2;
+    padding: 1% 3% 0;
+}
+
+.prop, .our, .sos
+{
+    flex-direction: column;
+    align-content: flex-start;
+    width: 30%;
+    align-items: flex-start;
+}
+
+footer a
+{
+    padding: 2% 0% 0% 2%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
