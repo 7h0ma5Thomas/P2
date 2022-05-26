@@ -454,9 +454,30 @@ i
 
 /* element 2*/
 
+.fat
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.act
+{
+    border: #0065FC solid 4px;
+    height: 60px;
+}
+
+.part-1, .part-2
+{
+    border: red solid 4px;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 400px;
+}
+
 .top
 {
-    height: 60%;
+    height: 40%;
+    width: 30%;
     flex-direction: column;
     border-radius: 8%/10%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -465,7 +486,8 @@ i
 .bottom
 {
     flex-direction: column;
-    height: 180px;
+    height: 40%;
+    width: 30%;
     border-radius: 8%/10%;
     overflow: hidden;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
