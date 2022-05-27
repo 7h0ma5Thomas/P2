@@ -28,14 +28,14 @@ nav
     height: 70px;
     justify-content: space-evenly;
     align-items: flex-end;
-    margin-left: 60%;
+    margin-left: 1000px;
 }
 
 nav a 
 {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     padding: 43px 40px 0px 40px;
 }
 
@@ -47,15 +47,14 @@ nav a:hover
 
 #logo 
 {
-    width: 140px;
+    width: 8%;
     height: 55px;
-    margin: 3% 0% 0% 3%;
+    margin: 40px 0px 0px 70px;
 }
 
 main 
 {
-    margin: 0% 3% 0% 3%;
-
+    margin: 0px 40px 0px 40px;
 }
 
 
@@ -63,17 +62,17 @@ main
 
 h1 
 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 50px;
 }
 
 p 
 {
-    font-size: 22px;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
-i,
-p 
+i, p 
 {
     display: flex;
 }
@@ -83,7 +82,7 @@ p
     font-size: 22px;
     border: #F2F2F2 solid 1px;
     border-radius: 15px 0px 0px 15px;
-    width: 70px;
+    width: 3.5%;
     height: 55px;
     display: flex;
     align-items: center;
@@ -94,7 +93,7 @@ p
 #search 
 {
     border: #F2F2F2 solid 1px;
-    width: 300px;
+    width: 15.5%;
     height: 55px;
     font-weight: bold;
 }
@@ -103,7 +102,7 @@ p
 {
     background-color: #0065FC;
     border: #0065FC solid 1px;
-    width: 150px;
+    width: 10%;
     height: 55px;
     border-radius: 0px 15px 15px 0px;
     color: white;
@@ -117,23 +116,23 @@ div, h2, .filter, .fa-money-bill-wave
 
 h2 
 {
-    font-size: 22px;
-    margin: 20px 0px 0px 10px;
+    font-size: 20px;
+    margin: 30px 0px 0px 0px;
     height: 50px;
 }
 
 .filter 
 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     border: #F2F2F2 solid 3px;
     border-left: none;
     border-radius: 50px;
-    margin: 20px 0px 0px 35px;
+    margin: 20px 0px 0px 30px;
     text-decoration: none;
     color: black;
     height: 60px;
-    width: 250px;
+    width: 14%;
 }
 
 .filter:hover .fa-solid, .filter:hover 
@@ -146,17 +145,17 @@ h2
 
 #fam 
 {
-    width: 185px;
+    width: 11%;
 }
 
 #rom 
 {
-    width: 230px;
+    width: 13%;
 }
 
 #ani 
 {
-    width: 300px;
+    width: 17%;
 }
 
 .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog 
@@ -169,9 +168,24 @@ h2
     border: #DEEBFF solid 1px;
     border-radius: 50px;
     height: 60px;
-    width: 60px;
+    width: 26%;
     background-color: #DEEBFF;
     margin-right: 15px;
+}
+
+.fa-child-reaching
+{
+    width: 34%;  
+}
+
+.fa-heart
+{
+    width: 28%;
+}
+
+.fa-dog 
+{
+    width: 22%;
 }
 
 .info, .fa-info 
@@ -185,7 +199,7 @@ h2
     color: #0065FC;
     border: #F2F2F2 solid 2px;
     border-radius: 50%;
-    width: 30px;
+    width: 1.9%;
     height: 30px;
     justify-content: center;
     align-items: center;
