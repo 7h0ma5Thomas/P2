@@ -331,13 +331,10 @@ i
     border-radius: 7%/5%;
     background-color: #F2F2F2;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    overflow: hidden;
     width: 33%;
-    padding: 1% 4% 1% 4%;
+    padding: 0% 4% 1% 4%;
 }
 
 .pop 
@@ -437,7 +434,7 @@ i
     margin-bottom: 4%; 
 }
 
-.fat h2
+.fat
 {
     height: 60px;
     margin-top: 3%;
