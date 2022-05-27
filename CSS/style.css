@@ -233,7 +233,6 @@ h2
     flex-wrap: wrap;
     align-items: center;
     padding: 3%;
-    margin-bottom: 2%;
 }
 
 .acc, .more 
@@ -432,7 +431,8 @@ i
 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 4%; 
+     
+    margin: 2% 0% 4% 0%;
 }
 
 /* Part 1*/
