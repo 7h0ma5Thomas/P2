@@ -1,0 +1,21 @@
+
+/*Tablet*/
+
+/*header*/
+
+/*@media all and (max-width: 992px)
+{
+    header
+    {
+        height: 200px;
+        flex-direction: column;
+        justify-content: space-evenly;   
+    }
+
+    nav
+    {
+        margin-left: 0px;
+        justify-content: flex-start;  
+    }
+    
+}*/
