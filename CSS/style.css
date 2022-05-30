@@ -244,7 +244,13 @@ h2
     align-items: center;
 }
 
-.acc, .more 
+.acc
+{
+    height: 8%;
+    width: 100%;
+}
+
+.more 
 {
     height: 8%;
     width: 100%;
@@ -255,7 +261,7 @@ h2
 
 h2
 {
-    margin-bottom: 1%;
+
     font-size: 26px;
 }
 
@@ -268,6 +274,11 @@ h2
 {
     text-decoration: none;
     color: black;
+}
+
+.show
+{
+    width: 100%;
 }
 
 .card 
