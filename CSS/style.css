@@ -141,7 +141,7 @@ h2
     text-decoration: none;
     color: black;
     height: 60px;
-    width: 13%;
+    width: 15%;
 }
 
 .filter:hover .fa-solid, .filter:hover 
@@ -154,17 +154,17 @@ h2
 
 #fam 
 {
-    width: 10%;
+    width: 12%;
 }
 
 #rom 
 {
-    width: 12%;
+    width: 14%;
 }
 
 #ani 
 {
-    width: 16%;
+    width: 18%;
 }
 
 .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog 
@@ -293,7 +293,7 @@ h2
     width: 30%;
     display: flex;
     border-radius: 25px/25px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 0.6%;
     flex-wrap: wrap;
     margin-bottom: 3%;
@@ -301,7 +301,7 @@ h2
 
 .card:hover, .photos:hover 
 {
-    box-shadow: 0px 0px 40px rgba(0, 101, 252, 0.5);
+    box-shadow: 0 0 40px rgba(0, 101, 252, 0.5);
     transition-duration: .3s;
     transition-timing-function: ease;
 }
@@ -389,7 +389,7 @@ i
     height: 160px;
     width: 400px;
     border-radius: 25px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 2% 2% 0 2%;
     margin: 8% 0 2% 0;
 }
@@ -402,7 +402,7 @@ i
 
 .tile:hover
 {
-    box-shadow: 0px 0px 40px rgba(0, 101, 252, 0.5);
+    box-shadow: 0 0 40px rgba(0, 101, 252, 0.5);
     transition-duration: .3s;
     transition-timing-function: ease;
 }
@@ -410,7 +410,7 @@ i
 .pics
  {
     height: 155px;
-    border-radius: 18px 0px 0 18px;
+    border-radius: 18px 0 0 18px;
     object-fit: cover;
  }
 
@@ -458,8 +458,8 @@ i
     display: flex;
     flex-direction: column;
     width: 100%; 
-    margin: 2% 0% 4% 0%;
-    padding: 0% 3% 0% 3%;
+    margin: 2% 0 4% 0;
+    padding: 0 3% 0 3%;
 }
 
 .fat h2
@@ -483,7 +483,7 @@ i
     width: 96%;
     font-size: 20px;
     font-weight: bold;
-    margin: 6% 0% 4% 0%;
+    margin: 6% 0 4% 0;
     padding-left: 6%;
 }
 
@@ -506,7 +506,7 @@ i
     width: 100%;
     border-radius: 8%/6%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .left figcaption
@@ -527,7 +527,7 @@ i
     width: 100%;
     border-radius: 8%/10%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .right-bottom
@@ -537,7 +537,7 @@ i
     width: 100%;
     border-radius: 8%/12%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .fort, .island 
@@ -555,7 +555,7 @@ i
     width: 100%;
     border-radius: 8%/6%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .right figcaption
@@ -576,7 +576,7 @@ i
     height: 45%;
     width: 100%;
     border-radius: 8%/12%;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .right-down
@@ -586,7 +586,7 @@ i
     flex-direction: column; 
     overflow: hidden;
     border-radius: 8%/12%;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .dame, .park
