@@ -3,7 +3,7 @@
 
 /*header*/
 
-/*@media all and (max-width: 992px)
+@media all and (max-width: 992px)
 {
     header
     {
@@ -18,4 +18,4 @@
         justify-content: flex-start;  
     }
     
-}*/
+}
