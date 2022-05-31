@@ -522,7 +522,7 @@ i
 .right-top
 {
     flex-direction: column;
-    height: 250px;
+    height: 245px;
     width: 100%;
     margin-bottom: 15%;
     border-radius: 8%/10%;
@@ -588,7 +588,7 @@ i
 {
     flex-direction: column;
     overflow: hidden;
-    height: 215px;
+    height: 210px;
     width: 100%;
     margin-bottom: 15%;
     border-radius: 8%/12%;
@@ -597,7 +597,7 @@ i
 
 .right-down
 {
-    height: 215px;
+    height: 210px;
     width: 100%;
     flex-direction: column; 
     overflow: hidden;
