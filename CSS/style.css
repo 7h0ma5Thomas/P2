@@ -279,11 +279,17 @@ h2
 .show
 {
     width: 100%;
+    padding: 0 2% 8% 0;
+}
+
+.show h2
+{
+    font-size: 20px;
 }
 
 .card 
 {
-    height: 220px;
+    height: 230px;
     width: 30%;
     display: flex;
     border-radius: 25px/25px;
@@ -329,12 +335,12 @@ h2
 
 .card-price 
 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 i 
 {
-    font-size: 18px;
+    font-size: 16px;
     color: #0065FC;
 }
 
@@ -384,7 +390,7 @@ i
     width: 400px;
     border-radius: 25px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    padding: 1% 1% 0 1%;
+    padding: 2% 2% 0 2%;
     margin: 8% 0 2% 0;
 }
 
