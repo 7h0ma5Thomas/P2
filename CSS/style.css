@@ -90,7 +90,7 @@ i, p
     font-size: 22px;
     border: #F2F2F2 solid 1px;
     border-radius: 15px 0 0 15px;
-    width: 4%;
+    width: 55px;
     height: 55px;
     display: flex;
     align-items: center;
@@ -101,7 +101,7 @@ i, p
 #search 
 {
     border: #F2F2F2 solid 1px;
-    width: 19%;
+    width: 16%;
     height: 55px;
     font-weight: bold;
 }
@@ -141,7 +141,7 @@ h2
     text-decoration: none;
     color: black;
     height: 60px;
-    width: 16%;
+    width: 13%;
 }
 
 .filter:hover .fa-solid, .filter:hover 
@@ -154,17 +154,17 @@ h2
 
 #fam 
 {
-    width: 12%;
+    width: 10%;
 }
 
 #rom 
 {
-    width: 15%;
+    width: 12%;
 }
 
 #ani 
 {
-    width: 19%;
+    width: 16%;
 }
 
 .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog 
@@ -194,7 +194,7 @@ h2
 
 .fa-dog 
 {
-    width: 22%;
+    width: 21%;
 }
 
 .info, .fa-info 
