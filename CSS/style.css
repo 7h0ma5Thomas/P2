@@ -19,7 +19,6 @@
 header, nav 
 {
     display: flex;
-    border: black solid 2px;
 }
 
 header
@@ -30,11 +29,10 @@ header
 
 nav 
 {
-    width: 30%;
+    width: 400px;
     height: 70px;
     justify-content: space-evenly;
     align-items: flex-end;
-    border: #0065FC solid 2px;
 }
 
 nav a 
@@ -56,7 +54,6 @@ nav a:hover
     width: 150px;
     height: 55px;
     margin: 40px 0 0 70px;
-    border: red solid 2px;
 }
 
 main 

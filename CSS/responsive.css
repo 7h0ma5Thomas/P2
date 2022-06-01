@@ -9,13 +9,23 @@
     {
         height: 200px;
         flex-direction: column;
-        justify-content: space-evenly;   
+        justify-content: space-evenly;  
     }
 
     nav
     {
         margin-left: 0px;
-        justify-content: flex-start;  
+        justify-content: flex-start;
+        margin: auto;  
     }
-    
+
+    nav a
+    {
+        margin: auto;
+    }
+
+    #logo
+    {
+        margin: auto;
+    }  
 }
