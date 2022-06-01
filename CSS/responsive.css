@@ -66,4 +66,70 @@
     {
         width: 29px;
     }
+
+    .info
+    {
+        margin-bottom: 0;
+    }
+}
+
+/* section 2 */
+
+@media all and (max-width: 992px)
+{
+    .big
+    {
+        height: 1900px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accommodation, .popular
+    {
+        width: 90%;
+        height: 1000px;
+        border-radius: 4%/3%;
+    }
+
+    .card-star
+    {
+        flex-direction: row;
+    }
+
+    .show h2
+    {
+        margin: 0;
+    }
+
+    .popular
+    {
+        height: 730px;
+        border-radius: 4%; 
+    }
+
+    .pop
+    {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .pop h2
+    {
+        margin: 0 10px 0 0;
+    }
+
+    .pop i
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .tile
+    {
+        flex-direction: row;
+    }
+ 
+    .star
+    {
+        flex-direction: row;
+    }
 }
