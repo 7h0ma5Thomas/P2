@@ -98,7 +98,7 @@ i, p
 #search 
 {
     border: #F2F2F2 solid 1px;
-    width: 16%;
+    width: 240px;
     height: 55px;
     font-weight: bold;
 }
@@ -107,7 +107,7 @@ i, p
 {
     background-color: #0065FC;
     border: #0065FC solid 1px;
-    width: 10%;
+    width: 140px;
     height: 55px;
     border-radius: 0 15px 15px 0;
     color: white;
@@ -142,7 +142,7 @@ h2
     text-decoration: none;
     color: black;
     height: 60px;
-    width: 13%;
+    width: 210px;
 }
 
 .filter:hover .fa-solid, .filter:hover 
@@ -155,17 +155,17 @@ h2
 
 #fam 
 {
-    width: 10%;
+    width: 170px;
 }
 
 #rom 
 {
-    width: 12%;
+    width: 210px;
 }
 
 #ani 
 {
-    width: 16%;
+    width: 280px;
 }
 
 .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog 
@@ -178,24 +178,9 @@ h2
     border: #DEEBFF solid 1px;
     border-radius: 50px;
     height: 60px;
-    width: 26%;
+    width: 58px;
     background-color: #DEEBFF;
     margin-right: 15px;
-}
-
-.fa-child-reaching
-{
-    width: 34%;  
-}
-
-.fa-heart
-{
-    width: 28%;
-}
-
-.fa-dog 
-{
-    width: 21%;
 }
 
 .info, .fa-info 
@@ -209,7 +194,7 @@ h2
     color: #0065FC;
     border: #F2F2F2 solid 2px;
     border-radius: 50%;
-    width: 1.9%;
+    width: 29px;
     height: 30px;
     justify-content: center;
     align-items: center;
