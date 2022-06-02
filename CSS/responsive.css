@@ -140,10 +140,9 @@
 {
     .fat
     {
-        height: 3200px;
+        height: 600px;
         margin: 50px 0 0 0;
         padding: 0;
-        flex-direction: column;
         align-items: center;
     }
 
@@ -153,14 +152,37 @@
         padding: 0;
     }
     
+    #ligne242
+    {
+        flex-direction: row;
+        padding: 0 1% 0 1%;
+    }
+
     .element
     {
         width: 90%;
-        border-radius: 8%;
+        border-radius: 10px/14px;
+        padding: 10px;
     }
-    
-    .right-top
+
+    #ligne242 h2
     {
-        
+        padding-left: 10px;
+    }
+}
+
+/* footer */
+
+@media all and (max-width: 992px)
+{
+    footer
+    {
+        height: 190px;
+        justify-content: space-between;
+    }
+
+    .prop, .our, .sos
+    {
+        align-items: center;
     }
 }
