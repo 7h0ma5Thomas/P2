@@ -79,16 +79,17 @@
 {
     .big
     {
-        height: 1900px;
+        height: 100%;
         flex-direction: column;
         align-items: center;
     }
 
     .accommodation, .popular
     {
-        width: 90%;
-        height: 1000px;
-        border-radius: 4%/3%;
+        width: 100%;
+        height: 100%;
+        border-radius: 40px;
+        margin-top: 50px;
     }
 
     .card-star
@@ -105,6 +106,7 @@
     {
         height: 730px;
         border-radius: 4%; 
+        justify-content: space-around;
     }
 
     .pop
@@ -126,6 +128,8 @@
     .tile
     {
         flex-direction: row;
+        width: 400px;
+        margin: 0%;
     }
  
     .star
@@ -184,5 +188,25 @@
     .prop, .our, .sos
     {
         align-items: center;
+    }
+}
+
+/* smartphone */
+
+/* header */
+
+@media all and (max-width: 768px)
+{
+    header
+    {
+        height: 150px;
+        flex-direction: column;
+        justify-content: space-between; 
+        align-items: center; 
+    }
+    
+    #logo
+    {
+        margin: 40px 0 0 50px;
     }
 }
