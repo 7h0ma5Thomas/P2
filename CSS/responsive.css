@@ -241,32 +241,108 @@
 {
     .one h1, p
     {
-        padding: 0 20px 0 20px;
-    }
-    
-    .one p
-    {
+        padding: 0 15px 0 15px;
         justify-content: flex-start;
     }
-
+    
     .bar
     {
-        padding: 0 20px 0 20px;
+        padding: 0 15px 0 15px;
     }
 
     .fa-location-dot
     {
         width: 60px;
+        color: black;
     }
     #search
     {
-        width: 260px;
+        width: 80%;
         border-right: none;
     }
 
     #button
     {
-        width: 55px;
+        width: 60px;
         border-radius: 15px;
+    }
+
+    span
+    {
+        display: none;
+    }
+
+    .fa-magnifying-glass
+    {
+        display: block;
+        font-size: 18px;
+        color: white;
+    }
+
+    div
+    {
+        padding: 0 15px 0 15px;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .fil
+    {
+        width: 100%;
+    }
+
+    .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog
+    {
+        font-size: 20px;
+        height: 58px;
+        width: 56px;
+    }
+
+    .filter
+    {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    #eco, #fam, #rom, #ani
+    {  
+        margin-bottom: 15px;
+    }
+
+    #eco
+    {
+        width: 185px;
+    }
+
+    #fam
+    {
+        width: 145px;
+    }
+
+    #rom
+    {
+        width: 180px;
+    }
+
+    #ani
+    {
+        width: 240px;
+    }
+
+    .fa-info
+    {
+        margin-right: 10px;
+        width: 38px;
+        font-size: 18px;
+        align-self: flex-start;
+    }
+
+    .info
+    {
+        margin: 15px 0 0 0;
+        font-size: 16px;
+        height: 50px;
     }
 }
