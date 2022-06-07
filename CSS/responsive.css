@@ -31,6 +31,11 @@
         justify-content: center;
     }
 
+    .fa-location-dot
+    {
+        width: 55px;
+    }
+
     #search
     {
       width: 240px;  
@@ -49,7 +54,7 @@
     .fil
     {
         margin: 0;
-        padding: 0;
+        padding: 0
     }
 
     #eco, #fam, #rom, #ani
@@ -208,12 +213,13 @@
     #logo
     {
         align-items: flex-start;
-        margin: 40px 0 20px 50px;
+        margin: 10px 0 0 50px;
     }
 
     nav a
     {
-        padding: 20px 40px 20px 40px;
+        /*padding: 20px 40px 20px 40px;*/
+        padding: 6% 12% 6% 12%;
     }
 
     nav a:hover
@@ -221,5 +227,46 @@
     border-top: none;
     border-bottom: 4px solid #0065FC;
     color: #0065FC;
+    }
+
+    main
+    {
+        width: 100%;
+    }
+}
+
+/* section 1 */
+
+@media all and (max-width: 768px)
+{
+    .one h1, p
+    {
+        padding: 0 20px 0 20px;
+    }
+    
+    .one p
+    {
+        justify-content: flex-start;
+    }
+
+    .bar
+    {
+        padding: 0 20px 0 20px;
+    }
+
+    .fa-location-dot
+    {
+        width: 60px;
+    }
+    #search
+    {
+        width: 260px;
+        border-right: none;
+    }
+
+    #button
+    {
+        width: 55px;
+        border-radius: 15px;
     }
 }
