@@ -137,7 +137,6 @@
         flex-direction: row;
         align-self: flex-start;
         width: 100%;
-
     }
     .pop h2
     {
@@ -157,11 +156,16 @@
         margin: 0;
     }
 
-    .tile
+    .tile, .tile-three
     {
         flex-direction: row;
         width: 100%;
         margin: 0;
+    }
+
+    .tile-three
+    {
+        margin-left: 60%;
     }
  
     .star
