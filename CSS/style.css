@@ -235,6 +235,7 @@ h2
     background-color: #F2F2F2;
     border-radius: 40px/38px;
     width: 65%;
+    padding: 0 30px 0 30px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -243,15 +244,16 @@ h2
 
 .acc
 {
-    height: 8%;
+    height: 50px;
     width: 100%;
-    margin-bottom: 1%;
+    margin-top: 35px;
 }
 
 .acc h2
 {  
     font-size: 24px;
-    padding-left: 40px;
+    padding-left: 30px;
+    margin: 0;
 }
 
 .more 
@@ -285,12 +287,14 @@ h2
 
 .card 
 {
-    height: 230px;
-    width: 310px;
+    height: 270px;
+    width: 28%;
     display: flex;
-    border-radius: 25px/25px;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    padding: 0.6%;
+    padding: 8px;
     flex-wrap: wrap;
     margin-bottom: 3%;
 }
@@ -302,17 +306,18 @@ h2
     transition-timing-function: ease;
 }
 
-.card-header 
+.photos
 {
-    overflow: hidden;
-    height: 140px;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
     border-radius: 18px 18px 0 0;
 }
 
 .card-body 
 {
     width: 100%;
-    height: 150px;
+    height: 80px;
     align-items: flex-start;
     flex-direction: column;
 }

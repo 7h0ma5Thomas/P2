@@ -346,3 +346,70 @@
         height: 50px;
     }
 }
+
+/* section 2 */
+
+/*accommodations*/
+
+@media all and (max-width: 768px)
+{
+    .big
+    {
+        justify-content: space-between;
+    }
+
+    .accommodation
+    {
+        width: 100%;
+        background-color: white;
+        margin: 10px 0 10px 0;
+    }
+
+    .acc
+    {
+        padding: 0;
+    }
+
+    .acc h2
+    {
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    .card
+    {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .card-header
+    {
+        width: 345px;
+        padding: 0;
+    }
+
+    .photos
+    {
+        
+    }
+
+    .card-body
+    {
+        height: 70px;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+    
+    .card-title, .card-price, .card-star 
+    {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    }
+
+    .card-last
+    {
+        padding: 0;
+    }
+}
