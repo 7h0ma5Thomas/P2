@@ -10,6 +10,11 @@
         justify-content: space-between;  
     }
 
+    #logo
+    {
+        margin: 40px 0 0 15px;
+    }
+
     nav
     {
         margin-left: 0px;
@@ -23,12 +28,7 @@
 {
     .one h1, p
     {
-        justify-content: center;
-    }
-
-    .bar
-    {
-        justify-content: center;
+        padding: 0 0 0 15px;
     }
 
     .fa-location-dot
@@ -46,10 +46,12 @@
         width: 140px;
     }
 
-    div
+    /*div
     {
-        flex-direction: column;
-    }
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 15px 0 15px;
+    }*/
 
     .fil
     {
@@ -57,9 +59,14 @@
         padding: 0
     }
 
+    .filter
+    {
+        margin: 10px 0 10px 0;
+    }
+
     #eco, #fam, #rom, #ani
     {
-        width: 280px;
+        width: 260px;
     }
 
     .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog
@@ -156,18 +163,13 @@
         margin: 0;
     }
 
-    .tile, .tile-three
+    .tile
     {
         flex-direction: row;
         width: 100%;
         margin: 0;
     }
 
-    .tile-three
-    {
-        margin-left: 60%;
-    }
- 
     .star
     {
         flex-direction: row;
@@ -372,7 +374,7 @@
 
     .info
     {
-        margin: 15px 0 0 0;
+        margin: 15px 0 30px 0;
         font-size: 16px;
         height: 50px;
     }
@@ -386,19 +388,20 @@
 {
     .big
     {
-        justify-content: space-between;
+        height: 2000px;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
     }
 
     .accommodation
     {
-        width: 100%;
-        background-color: white;
-        margin: 10px 0 10px 0;
+        
     }
 
     .acc
     {
         padding: 0;
+        margin: 0;
     }
 
     .acc h2
@@ -409,14 +412,12 @@
 
     .card
     {
-        width: 100%;
-        margin-bottom: 15px;
-        padding: 10px;
+        
     }
 
     .card-header
     {
-        width: 345px;
+        
         padding: 0;
     }
 
@@ -427,20 +428,79 @@
 
     .card-body
     {
-        height: 70px;
+        
         padding: 0;
-        justify-content: space-evenly;
+        
     }
     
     .card-title, .card-price, .card-star 
     {
-    font-size: 16px;
-    padding: 0;
-    margin: 0;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
     }
 
     .card-last
     {
         padding: 0;
     }
+
+    .popular
+    {
+        height: 1200px;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .pop
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pop i
+    {
+       
+    }
+
+    .tile
+    {
+        width: 150%;
+        
+    }
+
+    .pics
+    {
+        width: 50%;
+    }
+
+    .body
+    {
+        padding: 0;
+        height: 10%;
+        flex-direction: row;
+    }
+
+    .star
+    {
+        margin: 0;
+    }
+
+    .fat
+    {
+        height: 1900px;
+    }
+
+
 }
+
+/*footer*/
+
+@media all and (max-width: 768px)
+{
+    footer
+    {
+        height: 200px;
+    }
+}
+
