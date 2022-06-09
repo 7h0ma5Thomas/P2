@@ -366,8 +366,8 @@
 
     .fa-info
     {
-        margin-right: 10px;
-        width: 38px;
+        margin: 10px 10px 0 0;
+        width: 4%;
         font-size: 18px;
         align-self: flex-start;
     }
@@ -391,6 +391,7 @@
         height: 2000px;
         justify-content: flex-end;
         flex-direction: column-reverse;
+        padding: 0;
     }
 
     .accommodation
@@ -449,23 +450,38 @@
     {
         height: 1200px;
         flex-direction: column;
+        justify-content: flex-start;
         padding: 0;
+        border-radius: 0;
+    }
+
+    .popular a
+    {
+        width: 100%;
+        padding: 10px 15px 10px 15px;
     }
 
     .pop
     {
         flex-direction: column;
         width: 100%;
+        margin-top: 30px;
     }
 
     .pop i
     {
-       
+       padding-top: 10px;
+    }
+
+    .pop h2
+    {
+        width: 95%;
     }
 
     .tile
     {
-        width: 150%;
+        width: 100%;
+        margin-top: ;
         
     }
 
