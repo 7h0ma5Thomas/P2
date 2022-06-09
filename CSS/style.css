@@ -63,6 +63,12 @@ main
 
 /* Section 1 */
 
+div
+{
+    display: flex;
+    align-items: center;
+}
+
 h1 
 {
     font-size: 24px;
@@ -123,10 +129,15 @@ span
     display: none;
 }
 
-div, h2, .filter, .fa-money-bill-wave 
+.fls, h2, .filter, .fa-money-bill-wave 
 {
     display: flex;
     align-items: center;
+}
+
+.fls
+{
+    flex-wrap: wrap;
 }
 
 h2 
@@ -235,7 +246,6 @@ h2
     background-color: #F2F2F2;
     border-radius: 40px/38px;
     width: 65%;
-    padding: 0 30px 0 30px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -285,10 +295,17 @@ h2
     font-size: 20px;
 }
 
+.box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .card 
 {
-    height: 31%;
-    width: 28%;
+    height: 270px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -297,6 +314,7 @@ h2
     padding: 8px;
     flex-wrap: wrap;
     margin-bottom: 3%;
+    background-color: white;
 }
 
 .card:hover, .photos:hover 
@@ -388,15 +406,23 @@ i
     font-size: 25px;
 }
 
+.can
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .tile
 {
-    height: 100%;
+    height: 170px;
     width: 100%;
     border-radius: 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 6px;
     margin: 0;
     display: flex;
+    background-color: white;
 }
 
 .tile-link 
@@ -416,7 +442,7 @@ i
 .pics
  {
     width: 70%;
-    height: 185px;
+    height: 160px;
     border-radius: 18px 0 0 18px;
     object-fit: cover;
  }
@@ -444,7 +470,7 @@ i
 
 .star 
 {
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 i 

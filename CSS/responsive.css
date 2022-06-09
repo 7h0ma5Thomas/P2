@@ -46,12 +46,11 @@
         width: 140px;
     }
 
-    /*div
+    .fls
     {
         flex-wrap: wrap;
-        justify-content: space-between;
         padding: 0 15px 0 15px;
-    }*/
+    }
 
     .fil
     {
@@ -61,7 +60,7 @@
 
     .filter
     {
-        margin: 10px 0 10px 0;
+        margin: 10px 10px 10px 10px;
     }
 
     #eco, #fam, #rom, #ani
@@ -91,18 +90,9 @@
 {
     .big
     {
-        height: 1500px;
-        width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-    }
-
-    .accommodation
-    {
-        width: 100%;
-        height: 800px;
-        border-radius: 40px;
     }
 
     .card-star
@@ -312,13 +302,11 @@
         color: white;
     }
 
-    div
+    .fls
     {
         padding: 0 15px 0 15px;
         flex-direction: row;
         align-items: flex-start;
-        flex-wrap: wrap;
-        justify-content: space-between;
     }
 
     .fil
@@ -336,12 +324,7 @@
     .filter
     {
         font-size: 18px;
-        margin: 0;
-    }
-
-    #eco, #fam, #rom, #ani
-    {  
-        margin-bottom: 15px;
+        margin: 10px 15px 10px 0;
     }
 
     #eco
