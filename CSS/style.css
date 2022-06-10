@@ -236,6 +236,7 @@ h2
     height: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0 15px 0 15px;
 }
 
