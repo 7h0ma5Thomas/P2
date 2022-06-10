@@ -94,7 +94,10 @@
         align-items: center;
         justify-content: space-evenly;
         margin-bottom: 50px;
+        height: 100%;
     }
+
+/* Accommodations in Marseille*/
 
     .accommodation
     {
@@ -126,6 +129,8 @@
         padding: 0 0 15px 25px;
         margin: 0;
     }
+
+/* The most popular */
 
     .popular
     {
@@ -250,15 +255,14 @@
 
     nav a
     {
-        /*padding: 20px 40px 20px 40px;*/
-        padding: 6% 12% 6% 12%;
+        padding: 20px 40px 20px 40px;
     }
 
     nav a:hover
     { 
-    border-top: none;
-    border-bottom: 4px solid #0065FC;
-    color: #0065FC;
+        border-top: none;
+        border-bottom: 4px solid #0065FC;
+        color: #0065FC;
     }
 
     main
@@ -374,125 +378,91 @@
 
 /* section 2 */
 
-/*accommodations*/
-
 @media all and (max-width: 768px)
 {
     .big
     {
-        height: 2000px;
-        justify-content: flex-end;
+        height: 100%;
+        justify-content: space-between;
         flex-direction: column-reverse;
         padding: 0;
     }
 
+/* Accommodations in Marseille*/
+
     .accommodation
     {
-        
+        background-color: white;
+        padding: 0 20px 0 20px;
+        margin-top: 30px;
     }
 
     .acc
     {
         padding: 0;
-        margin: 0;
-    }
-
-    .acc h2
-    {
         margin: 0 0 10px 0;
+        justify-content: flex-start;
+    }
+
+    .acc h2, .card-header, .card-body
+    {
         padding: 0;
     }
 
-    .card
-    {
-        
-    }
-
-    .card-header
-    {
-        
-        padding: 0;
-    }
-
-    .photos
-    {
-        
-    }
-
-    .card-body
-    {
-        
-        padding: 0;
-        
-    }
-    
-    .card-title, .card-price, .card-star 
-    {
-        font-size: 16px;
-        padding: 0;
-        margin: 0;
-    }
-
-    .card-last
-    {
-        padding: 0;
-    }
+/* The most popular */
 
     .popular
     {
-        height: 1200px;
+        height: 45%;
         flex-direction: column;
         justify-content: flex-start;
-        padding: 0;
+        padding: 0 20px 0 20px;
         border-radius: 0;
     }
 
     .popular a
     {
         width: 100%;
-        padding: 10px 15px 10px 15px;
     }
 
     .pop
     {
-        flex-direction: column;
-        width: 100%;
-        margin-top: 30px;
+        justify-content: space-between;
     }
 
     .pop i
     {
-       padding-top: 10px;
+       padding: 0;
     }
 
     .pop h2
     {
-        width: 95%;
+        width: 230px;
     }
 
-    .tile
+    .can
     {
-        width: 100%;
-        margin-top: ;
-        
+        height: 700px;
+        justify-content: space-between;
     }
 
     .pics
     {
-        width: 50%;
+        width: 140px;
     }
 
     .body
     {
-        padding: 0;
-        height: 10%;
-        flex-direction: row;
+        padding: 20px 0 0 30px;
+        flex-direction: column;
     }
 
     .star
     {
-        margin: 0;
+        margin: 80px 0 0 0;
     }
+
+/* section 3*/
 
     .fat
     {
