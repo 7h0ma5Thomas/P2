@@ -489,10 +489,11 @@ i
 {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 100%;
     width: 100%; 
     margin: 2% 0 4% 0;
     padding: 0 1% 0 1%;
+    border: #0065FC solid 4px;
 }
 
 .fat h2
@@ -502,17 +503,23 @@ i
     margin-bottom: 10px;
 }
 
+#ligne242
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* Part 1*/
 
 .element
 {
-    width: 100%;
-    height: 467px;
+    width: 400px;
+    height: 100%;
     flex-direction: column;
     align-content: space-between;
     overflow: hidden;
     padding: 25px;
-    border-radius: 8%/6%;
+    border-radius: 90px;
 }
 
 .left
@@ -548,6 +555,7 @@ i
 .vieux
 {
     height: 460px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -575,7 +583,8 @@ i
 .fort, .island 
 {
     overflow: hidden;
-    object-fit: cover 
+    object-fit: cover;
+    width: 100%; 
 }
 
 /* Part 2*/
@@ -613,6 +622,7 @@ i
 .calanques
 {
     height: 460px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -641,6 +651,7 @@ i
 {
     overflow: hidden;
     object-fit: cover;
+    width: 100%;
 }
 
 /* footer */

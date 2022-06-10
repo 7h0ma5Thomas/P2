@@ -404,7 +404,7 @@
         justify-content: flex-start;
     }
 
-    .acc h2, .card-header, .card-body
+    .acc h2, .card-header, .card-body, .show, .show h2
     {
         padding: 0;
     }
@@ -466,9 +466,41 @@
 
     .fat
     {
-        height: 1900px;
+        height: 100%;
+        padding: 0 20px 0 20px;
     }
 
+    .fat h2
+    {
+        align-self: flex-start;
+        margin-bottom: 30px;
+    }
+
+    #ligne242
+    {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .element
+    {
+        width: 100%;
+        /**height: 20%;*/   
+    }
+
+    .vieux
+    {
+        height: 80%;
+    }
+
+    .left h2
+    {
+        font-size: 20px;
+        width: 100%;
+        padding-top: 5%;
+        margin-left: 4%;
+    }
 
 }
 
@@ -480,5 +512,7 @@
     {
         height: 200px;
     }
-}
 
+    
+
+}
