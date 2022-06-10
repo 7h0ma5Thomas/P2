@@ -510,9 +510,19 @@
 {
     footer
     {
-        height: 200px;
+        height: 400px;
+        flex-direction: column;
+        padding: 0 0 0 20px;
     }
 
-    
+    .prop, .our, .sos
+    {
+        align-items: flex-start;
+        /*width: 560px;*/
+    }
 
+    footer a
+    {
+        padding: 0 0 10px 0;
+    }
 }
