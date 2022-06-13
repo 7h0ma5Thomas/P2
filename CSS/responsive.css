@@ -138,6 +138,7 @@
         border-radius: 40px;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-top: 20px;
     }
 
     .pop
@@ -151,7 +152,7 @@
     {
         margin: 0;
         padding: 0;
-        width: 30%;
+        width: 290px;
     }
 
     .pop i
@@ -177,6 +178,7 @@
     .star
     {
         flex-direction: row;
+        
     }
 }
 
@@ -448,7 +450,7 @@
 
     .pics
     {
-        width: 140px;
+        width: 50%;
     }
 
     .body
@@ -459,7 +461,8 @@
 
     .star
     {
-        margin: 80px 0 0 0;
+        position: absolute;
+        margin: 140px 0 0 0;
     }
 
 /* section 3*/
