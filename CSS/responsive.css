@@ -1,7 +1,6 @@
+/* Tablet */
 
-/*Tablet*/
-
-/*header*/
+/* header */
 
 @media all and (max-width: 992px)
 {
@@ -22,7 +21,7 @@
     }
 }
 
-/*section 1 : search bar */
+/* section 1 : search bar */
 
 @media all and (max-width: 992px)
 {
@@ -97,7 +96,7 @@
         height: 100%;
     }
 
-/* Accommodations in Marseille*/
+/* Accommodations in Marseille */
 
     .accommodation
     {
@@ -211,7 +210,7 @@
         padding-left: 10px;
     }
 
-/*part 1 */
+/* part 1 */
 
     .element
     {
@@ -429,7 +428,7 @@
         padding: 0;
     }
 
-/* Accommodations in Marseille*/
+/* Accommodations in Marseille */
 
     .accommodation
     {
@@ -504,7 +503,7 @@
         margin: 140px 0 0 0;
     }
 
-/* section 3*/
+/* section 3 */
 
     .fat
     {
@@ -556,7 +555,7 @@
     } 
 }
 
-/*footer*/
+/* footer */
 
 @media all and (max-width: 768px)
 {
