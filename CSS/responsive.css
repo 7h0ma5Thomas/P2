@@ -199,13 +199,13 @@
         padding: 0;
     }
     
-    #ligne242
+    #ligne237
     {
         flex-direction: row;
         padding: 0 1% 0 1%;
     }
 
-    #ligne242 h2
+    #ligne237 h2
     {
         padding-left: 10px;
     }
@@ -451,6 +451,11 @@
 
 /* The most popular */
 
+    #ligne56
+    {
+        padding: 0;
+    }
+
     .popular
     {
         height: 45%;
@@ -511,14 +516,14 @@
         margin-bottom: 30px;
     }
 
-    #ligne242
+    #ligne237
     {
         flex-direction: column;
         width: 100%;
         padding: 0;
     }
 
-    #ligne242 h2
+    #ligne237 h2
     {
         font-size: 20px;
         width: 100%;

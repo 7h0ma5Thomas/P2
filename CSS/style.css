@@ -230,14 +230,21 @@ h2
 
 /* section 2 */
 
+#ligne56
+{
+    height: 100%;
+    width: 100%;
+    padding: 0 40px 0 40px;
+}
+
 .big 
 {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: stretch;
     flex-wrap: wrap;
-    padding: 0 15px 0 15px;
 }
 
 /* Accommodations in Marseille*/
@@ -246,7 +253,7 @@ h2
 {
     background-color: #F2F2F2;
     border-radius: 40px/38px;
-    width: 65%;
+    width: 68%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -377,7 +384,7 @@ i
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
-    width: 520px;
+    width: 28%;
 }
 
 .pop 
@@ -414,7 +421,7 @@ i
 .tile
 {
     height: 190px;
-    width: 430px;
+    width: 100%;
     border-radius: 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 6px;
@@ -445,6 +452,8 @@ i
     border-radius: 18px 0 0 18px;
     object-fit: cover;
  }
+
+
 
 .body 
 {
@@ -505,7 +514,7 @@ i
     margin-bottom: 10px;
 }
 
-#ligne242
+#ligne237
 {
     display: flex;
     justify-content: space-evenly;
