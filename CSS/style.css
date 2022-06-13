@@ -494,7 +494,6 @@ i
     width: 100%; 
     margin: 2% 0 4% 0;
     padding: 0 1% 0 1%;
-    border: #0065FC solid 4px;
 }
 
 .fat h2
@@ -520,7 +519,6 @@ i
     align-content: space-between;
     overflow: hidden;
     padding: 25px;
-    border-radius: 90px;
 }
 
 .left
@@ -528,7 +526,7 @@ i
     flex-direction: column;
     height: 480px;
     width: 100%;
-    border-radius: 8%/6%;
+    border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
@@ -566,7 +564,7 @@ i
     height: 245px;
     width: 100%;
     margin-bottom: 15%;
-    border-radius: 8%/10%;
+    border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
@@ -576,7 +574,7 @@ i
     flex-direction: column;;
     height: 180px;
     width: 100%;
-    border-radius: 8%/12%;
+    border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
@@ -595,7 +593,7 @@ i
     flex-direction: column;
     height: 480px;
     width: 100%;
-    border-radius: 8%/6%;
+    border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
@@ -634,7 +632,7 @@ i
     height: 210px;
     width: 100%;
     margin-bottom: 15%;
-    border-radius: 8%/12%;
+    border-radius: 30px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -644,7 +642,7 @@ i
     width: 100%;
     flex-direction: column; 
     overflow: hidden;
-    border-radius: 8%/12%;
+    border-radius: 30px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 

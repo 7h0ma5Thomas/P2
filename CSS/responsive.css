@@ -206,17 +206,56 @@
         padding: 0 1% 0 1%;
     }
 
-    .element
-    {
-        width: 90%;
-        border-radius: 10px/14px;
-        padding: 10px;
-    }
-
     #ligne242 h2
     {
         padding-left: 10px;
     }
+
+/*part 1 */
+
+    .element
+    {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .fort
+    {
+        height: 200px;
+    }
+
+    .right-bottom
+    {
+        height: 202px;
+    }
+
+    .island
+    {
+        height: 160px;
+    }
+
+/* part 2 */
+
+    .right-up
+    {
+        height: 223px;
+    }
+
+    .dame
+    {
+        height: 170px;
+    }
+
+    .right-down
+    {
+        height: 223px;
+    }
+
+    .park
+    {
+        height: 180px;
+    }
+
 }
 
 /* footer */
@@ -486,18 +525,7 @@
         padding: 0;
     }
 
-    .element
-    {
-        width: 100%;
-        /**height: 20%;*/   
-    }
-
-    .vieux
-    {
-        height: 80%;
-    }
-
-    .left h2
+    #ligne242 h2
     {
         font-size: 20px;
         width: 100%;
@@ -505,6 +533,27 @@
         margin-left: 4%;
     }
 
+    .element
+    {
+        width: 100%;  
+        justify-content: flex-start;
+    }
+
+    .vieux, .fort, .island, .calanques, .dame, .park
+    {
+        height: 80%;
+    }
+
+    .left, .right-top, .right-bottom, .right, .right-up, .right-down
+    {
+        height: 400px;
+        margin: 0px;
+    }
+
+    .right-bottom, .right-down
+    {
+        margin-top: 20px;
+    } 
 }
 
 /*footer*/
@@ -516,12 +565,12 @@
         height: 400px;
         flex-direction: column;
         padding: 0 0 0 20px;
+        margin-top: 50px;
     }
 
     .prop, .our, .sos
     {
         align-items: flex-start;
-        /*width: 560px;*/
     }
 
     footer a
