@@ -264,13 +264,13 @@ h2
 {
     height: 50px;
     width: 100%;
-    margin-top: 35px;
+    margin: 35px 0 20px 0;
 }
 
 .acc h2
 {  
     font-size: 24px;
-    padding-left: 30px;
+    padding-left: 45px;
     margin: 0;
 }
 
@@ -388,7 +388,7 @@ i
 {
     height: 50px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .pop h2 
@@ -498,8 +498,7 @@ i
     flex-direction: column;
     height: 100%;
     width: 100%; 
-    margin: 2% 0 4% 0;
-    
+    margin: 2% 0 4% 0; 
 }
 
 .fat h2
@@ -573,7 +572,7 @@ i
 .right-top
 {
     flex-direction: column;
-    height: 245px;
+    height: 240px;
     width: 100%;
     margin-bottom: 15%;
     border-radius: 30px;
@@ -636,7 +635,7 @@ i
 {
     flex-direction: column;
     overflow: hidden;
-    height: 212px;
+    height: 210px;
     width: 100%;
     margin-bottom: 15%;
     border-radius: 30px;
@@ -645,7 +644,7 @@ i
 
 .right-down
 {
-    height: 212px;
+    height: 210px;
     width: 100%;
     flex-direction: column; 
     overflow: hidden;
