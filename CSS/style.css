@@ -276,14 +276,16 @@ h2
 
 .more 
 {
-    height: 8%;
     width: 100%;
+    padding: 0 0 0 45px;
+    margin-bottom: 40px;
 }
 
-.more h2
+.show h2
 {
-    font-size: 22px;
-    padding-left: 40px;
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
 }
 
 .show, .card-link 
@@ -294,13 +296,8 @@ h2
 
 .show
 {
-    width: 100%;
-    padding: 0 2% 8% 0;
-}
-
-.show h2
-{
-    font-size: 20px;
+    width: 130px;
+    height: 40px;
 }
 
 .box
@@ -453,8 +450,6 @@ i
     object-fit: cover;
  }
 
-
-
 .body 
 {
     flex-direction: column;
@@ -504,14 +499,14 @@ i
     height: 100%;
     width: 100%; 
     margin: 2% 0 4% 0;
-    padding: 0 1% 0 1%;
+    
 }
 
 .fat h2
 {
     font-size: 24px;
-    padding-left: 25px;
-    margin-bottom: 10px;
+    padding-left: 45px;
+    margin-top: 10px;
 }
 
 .fat a
@@ -530,7 +525,7 @@ i
 
 .element
 {
-    width: 400px;
+    width: 450px;
     height: 100%;
     flex-direction: column;
     align-content: space-between;
