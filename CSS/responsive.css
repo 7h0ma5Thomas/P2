@@ -262,7 +262,7 @@
 
     .left:hover, .right-top:hover, .right-bottom:hover, .right:hover, .right-up:hover, .right-down:hover
     {
-        box-shadow: 0 0 12px rgba(0, 101, 252, 0.5);
+        box-shadow: 0 0 10px rgba(0, 101, 252, 0.5);
         transition-duration: .3s;
         transition-timing-function: ease;
     }
