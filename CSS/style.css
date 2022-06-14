@@ -514,6 +514,12 @@ i
     margin-bottom: 10px;
 }
 
+.fat a
+{
+    text-decoration: none;
+    color: black;
+}
+
 #ligne237
 {
     display: flex;
@@ -657,6 +663,13 @@ i
     overflow: hidden;
     object-fit: cover;
     width: 100%;
+}
+
+.left:hover, .right-top:hover, .right-bottom:hover, .right:hover, .right-up:hover, .right-down:hover
+{
+    box-shadow: 0 0 25px rgba(0, 101, 252, 0.5);
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 /* footer */
