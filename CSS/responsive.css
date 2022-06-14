@@ -135,7 +135,6 @@
     {
         width: 100%;
         border-radius: 40px;
-        flex-direction: row;
         flex-wrap: wrap;
         margin-top: 20px;
     }
