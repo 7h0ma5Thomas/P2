@@ -322,7 +322,7 @@ h2
     background-color: white;
 }
 
-.card:hover, .photos:hover 
+.card:hover
 {
     box-shadow: 0 0 40px rgba(0, 101, 252, 0.5);
     transition-duration: .3s;
