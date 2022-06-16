@@ -89,7 +89,7 @@
 {
     .big
     {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: space-evenly;
         margin-bottom: 50px;
@@ -136,7 +136,7 @@
         width: 100%;
         border-radius: 40px;
         flex-wrap: wrap;
-        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .pop
