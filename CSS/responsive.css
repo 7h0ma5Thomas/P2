@@ -298,8 +298,10 @@
 
     nav a
     {
-        padding: 20px 40px 20px 40px;
+        padding: 20px 60px 20px 40px;
+        border-bottom: 4px solid #F2F2F2;
     }
+    
 
     nav a:hover
     { 
