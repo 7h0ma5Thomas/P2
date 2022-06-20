@@ -1,8 +1,51 @@
+/* desktop intermediate */
+
+@media all and (max-width: 1350px)
+{
+    .big
+    {
+        flex-direction: column-reverse;
+        width: 99.9%;
+    }
+
+    .accommodation
+    {
+        margin-right: 0;
+        max-width: 100%;
+
+    }
+
+    .popular
+    {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .can
+    {
+        width: 100%;
+        height: 250px;
+        justify-content: space-between;
+    }
+
+    .tile
+    {
+        width: 30%;
+    }
+
+    .star
+    {
+        position: absolute;
+        margin-top: 130px;
+    }
+}
+
 /* Tablet */
 
 /* header */
 
-@media all and (max-width: 992px)
+@media all and (min-width: 768px) and (max-width: 992px)
 {
     header
     {
@@ -19,12 +62,9 @@
         margin-left: 0px;
         justify-content: flex-start; 
     }
-}
 
 /* section 1 : search bar */
 
-@media all and (max-width: 992px)
-{
     .one h1, p
     {
         padding: 0 0 0 15px;
@@ -81,12 +121,9 @@
     {
         margin: 30px 0 30px 0;
     }
-}
 
 /* section 2 */
 
-@media all and (max-width: 992px)
-{
     .big
     {
         flex-direction: column-reverse;
@@ -144,7 +181,7 @@
     {
         flex-direction: row;
         justify-content: center;
-        margin-top: 35px;
+        margin-top: 20px;
     }
 
     .pop h2
@@ -169,15 +206,38 @@
 
     .tile
     {
-        width: 100%;
+        height: 40%;
+        width: 45%;
         margin: 0;
     }
-}
+
+    #tile-link
+    {
+        padding: 4px;
+    }
+
+    .pics
+    {
+        height: 100%;
+        margin-left: 2px;
+    }
+
+    .body
+    {
+        height: 100%;
+        width: 100%;
+        padding: 5% 7.5% 2.5% 7.5%;
+    }
+    
+    .star
+    {
+        width: 100px;
+        position: absolute;
+        margin: 130px 0 0 0;
+    }
 
 /* section 3 */
 
-@media all and (max-width: 992px)
-{
     .fat
     {
         height: 600px;
@@ -258,12 +318,10 @@
         transition-duration: .3s;
         transition-timing-function: ease;
     }
-}
+
 
 /* footer */
 
-@media all and (max-width: 992px)
-{
     footer
     {
         height: 190px;
@@ -313,12 +371,9 @@
     {
         width: 100%;
     }
-}
 
 /* section 1 */
 
-@media all and (max-width: 768px)
-{
     .one h1, p
     {
         padding: 0 15px 0 15px;
@@ -418,12 +473,9 @@
         font-size: 16px;
         height: 50px;
     }
-}
 
 /* section 2 */
 
-@media all and (max-width: 768px)
-{
     .big
     {
         height: 100%;
@@ -494,6 +546,16 @@
         justify-content: space-between;
     }
 
+    .tile-link
+    {
+        height: 50%;
+    }
+
+    .tile
+    {
+        height: 50%;
+    }
+
     .pics
     {
         width: 50%;
@@ -505,12 +567,17 @@
         flex-direction: column;
     }
 
+    .star
+    {
+        margin: 120px 0 0 0;
+    }
+
     .card:hover
-{
+    {
     box-shadow: 0 0 20px rgba(0, 101, 252, 0.5);
     transition-duration: .3s;
     transition-timing-function: ease;
-}
+    }
 
 /* section 3 */
 
@@ -569,12 +636,9 @@
         transition-duration: .3s;
         transition-timing-function: ease;
     }
-}
 
 /* footer */
 
-@media all and (max-width: 768px)
-{
     footer
     {
         height: 400px;
