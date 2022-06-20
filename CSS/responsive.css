@@ -354,12 +354,21 @@
         margin: 10px 0 0 50px;
     }
 
+    .nav
+    {
+        width: 100%;
+    }
+
     nav a
     {
         padding: 20px 60px 20px 40px;
         border-bottom: 4px solid #F2F2F2;
     }
     
+    /*.border-1, .border-2
+    {
+        border: #0065FC solid 4px;
+    }*/
 
     nav a:hover
     { 
