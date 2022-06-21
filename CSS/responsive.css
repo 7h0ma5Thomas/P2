@@ -22,6 +22,16 @@
         margin-bottom: 30px;
     }
 
+    .pop
+    {
+        margin-top: 10px;
+    }
+
+    .pop h2, .pop i
+    {
+        padding: 0;
+    }
+
     .can
     {
         width: 100%;
@@ -340,6 +350,11 @@
     {
         align-items: center;
     }
+
+    footer a
+    {
+        font-size: 16px;
+    }
 }
 
 /* smartphone */
@@ -567,7 +582,8 @@
 
     .pop h2
     {
-        width: 230px;
+        width: 100%;
+        padding: 0;
     }
 
     .can
@@ -617,13 +633,14 @@
     .fat
     {
         height: 100%;
-        padding: 0 20px 0 20px;
+        padding: 0;
     }
 
     .fat h2
     {
         align-self: flex-start;
-        margin-bottom: 30px;
+        margin: 10px 0 0 2.5%;
+        padding: 0;
     }
 
     #ligne236
@@ -645,6 +662,7 @@
     {
         width: 100%;  
         justify-content: flex-start;
+        padding: 2.5%;
     }
 
     /*.act-link
@@ -654,8 +672,7 @@
 
     .vieux, .fort, .island, .calanques, .dame, .park
     {
-        height: 50%;
-
+        height: 65%;
     }
 
     /*.right-top, .right-bottom, .right-up, .right-down
@@ -668,9 +685,15 @@
         height: 400px;
     }*/
 
-    .act-link-1
+    .act-link-1, .act-link-2, .act-link-3, .act-link-4, .act-link-5
     {
-        height: 40%;
+        height: 190px;
+        width: 100%;
+    }
+
+    .act-link-2, .act-link-4
+    {
+        margin-bottom: 5%;
     }
 
     .right-bottom, .right-down
@@ -678,7 +701,7 @@
         margin-top: 50px;
     } 
 
-    .left:hover, .right-top:hover, .right-bottom:hover, .right:hover, .right-up:hover, .right-down:hover
+    .element a:hover
     {
         box-shadow: 0 0 10px rgba(0, 101, 252, 0.5);
         transition-duration: .3s;
