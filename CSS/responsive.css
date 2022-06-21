@@ -12,7 +12,6 @@
     {
         margin-right: 0;
         max-width: 100%;
-
     }
 
     .popular
@@ -148,7 +147,6 @@
     .accommodation
     {
         width: 100%;
-
     }
 
     .acc
@@ -303,13 +301,6 @@
         height: 150px;
     }
 
-/* part 2 */
-
-    /*.right-up
-    {
-        height: 80%;
-    }*/
-
     .act-link-4
     {
         margin-bottom: 50px;
@@ -319,11 +310,6 @@
     {
         height: 170px;
     }
-
-    /*.right-down
-    {
-        height: 100%;
-    }*/
 
     .park
     {
@@ -378,8 +364,7 @@
 
     .nav
     {
-        width: 100%;
-        
+        width: 100%;  
     }
 
     nav a
@@ -623,9 +608,9 @@
 
     .card:hover
     {
-    box-shadow: 0 0 20px rgba(0, 101, 252, 0.5);
-    transition-duration: .3s;
-    transition-timing-function: ease;
+        box-shadow: 0 0 20px rgba(0, 101, 252, 0.5);
+        transition-duration: .3s;
+        transition-timing-function: ease;
     }
 
 /* section 3 */
@@ -665,25 +650,10 @@
         padding: 2.5%;
     }
 
-    /*.act-link
-    {
-        width: 100%;
-    }*/
-
     .vieux, .fort, .island, .calanques, .dame, .park
     {
         height: 65%;
     }
-
-    /*.right-top, .right-bottom, .right-up, .right-down
-    {
-        height: 300px;
-    }
-
-    .left, .right
-    {
-        height: 400px;
-    }*/
 
     .act-link-1, .act-link-2, .act-link-3, .act-link-4, .act-link-5
     {

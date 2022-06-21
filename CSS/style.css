@@ -535,37 +535,13 @@ i
     height: 100%;
 }
 
-/*.left
-{*/
-    .act-link-1
-    {
+.act-link-1
+{
     flex-direction: column;
-    /*height: 100%;
-    width: 100%;*/
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
-
-/*.left h2, .right-top h2, .right-bottom h2
-{
-    width: 96%;
-    height: 60px;
-    font-size: 18px;
-    font-weight: bold;
-    padding-left: 6%;
-    margin: 0%;
-}
-
-.right-top h2
-{
-    margin: 5%;
-}
-
-.right-bottom h2
-{
-    margin: 3.5%;
-}*/
 
 .vieux
 {
@@ -574,17 +550,6 @@ i
     object-fit: cover;
 }
 
-/*.right-top
-{
-    flex-direction: column;
-    height: 260px;
-    width: 100%;
-    margin-bottom: 60px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-}
-*/
 .act-link-2
 {
     flex-direction: column;
@@ -627,33 +592,6 @@ i
     font-size: 20px;
     padding: 0 0 3% 7%;
 }
-
-/* Part 2 */
-
-/*.right
-{
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-}*/
-
-/*.right h2, .right-up h2, .right-down h2
-{
-    width: 96%;
-    height: 60px;
-    font-size: 18px;
-    font-weight: bold;
-    padding-left: 6%;
-    margin: 0%;
-}
-
-.right-up h2, .right-down h2
-{
-    margin: 3.3%;
-}*/
 
 .calanques
 {
