@@ -138,6 +138,7 @@
     .accommodation
     {
         width: 100%;
+
     }
 
     .acc
@@ -172,6 +173,7 @@
     .popular
     {
         width: 100%;
+        height: 100%;
         border-radius: 40px;
         flex-wrap: wrap;
         margin-bottom: 20px;
@@ -259,7 +261,8 @@
 
     #ligne236 h2
     {
-        padding-left: 10px;
+        padding-left: 20px;
+        font-size: 18px;
     }
 
     .act-link
@@ -275,27 +278,31 @@
         padding: 10px;
     }
 
+    .act-link-2
+    {
+        margin-bottom: 50px;
+    }
+
     .fort
     {
         height: 200px;
     }
 
-    .right-bottom
-    {
-        height: 206px;
-    }
-
     .island
     {
-        height: 160px;
+        height: 150px;
     }
 
 /* part 2 */
 
-    .right-up
+    /*.right-up
     {
         height: 80%;
+    }*/
 
+    .act-link-4
+    {
+        margin-bottom: 50px;
     }
 
     .dame
@@ -303,17 +310,17 @@
         height: 170px;
     }
 
-    .right-down
+    /*.right-down
     {
         height: 100%;
-    }
+    }*/
 
     .park
     {
         height: 180px;
     }
 
-    .left:hover, .right-top:hover, .right-bottom:hover, .right:hover, .right-up:hover, .right-down:hover
+    .element a:hover
     {
         box-shadow: 0 0 10px rgba(0, 101, 252, 0.5);
         transition-duration: .3s;
@@ -366,11 +373,6 @@
         border-bottom: 4px solid #F2F2F2;
     }
     
-    /*.border-1, .border-2
-    {
-        border: #0065FC solid 4px;
-    }*/
-
     nav a:hover
     { 
         border-top: none;
@@ -488,7 +490,6 @@
 
     .big
     {
-        height: 2100px;
         justify-content: space-between;
         padding: 0;
     }
@@ -500,7 +501,6 @@
         background-color: white;
         padding: 0 20px 0 20px;
         margin-top: 30px;
-        height: 2100px;
     }
 
     .acc
@@ -647,20 +647,30 @@
         justify-content: flex-start;
     }
 
-    .act-link
+    /*.act-link
     {
         width: 100%;
-    }
+    }*/
 
     .vieux, .fort, .island, .calanques, .dame, .park
     {
-        height: 80%;
+        height: 50%;
+
     }
 
-    .left, .right-top, .right-bottom, .right, .right-up, .right-down
+    /*.right-top, .right-bottom, .right-up, .right-down
+    {
+        height: 300px;
+    }
+
+    .left, .right
     {
         height: 400px;
-        margin: 0px;
+    }*/
+
+    .act-link-1
+    {
+        height: 40%;
     }
 
     .right-bottom, .right-down

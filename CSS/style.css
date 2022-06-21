@@ -535,17 +535,19 @@ i
     height: 100%;
 }
 
-.left
-{
+/*.left
+{*/
+    .act-link-1
+    {
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+    /*height: 100%;
+    width: 100%;*/
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
-.left h2, .right-top h2, .right-bottom h2
+/*.left h2, .right-top h2, .right-bottom h2
 {
     width: 96%;
     height: 60px;
@@ -563,7 +565,7 @@ i
 .right-bottom h2
 {
     margin: 3.5%;
-}
+}*/
 
 .vieux
 {
@@ -572,7 +574,18 @@ i
     object-fit: cover;
 }
 
-.right-top
+/*.right-top
+{
+    flex-direction: column;
+    height: 260px;
+    width: 100%;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+*/
+.act-link-2
 {
     flex-direction: column;
     height: 260px;
@@ -583,9 +596,17 @@ i
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
-.right-bottom
+.fort
 {
-    flex-direction: column;;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    height: 75%; 
+}
+
+.act-link-3
+{
+    flex-direction: column;
     height: 200px;
     width: 100%;
     border-radius: 30px;
@@ -593,16 +614,23 @@ i
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
-.fort, .island 
+.island 
 {
     overflow: hidden;
     object-fit: cover;
-    width: 100%; 
+    width: 100%;
+    height: 70%;
+}
+
+.act-link-1 h2, .act-link-2 h2, .act-link-3 h2
+{
+    font-size: 20px;
+    padding: 0 0 3% 7%;
 }
 
 /* Part 2 */
 
-.right
+/*.right
 {
     flex-direction: column;
     height: 100%;
@@ -610,9 +638,9 @@ i
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-}
+}*/
 
-.right h2, .right-up h2, .right-down h2
+/*.right h2, .right-up h2, .right-down h2
 {
     width: 96%;
     height: 60px;
@@ -625,7 +653,7 @@ i
 .right-up h2, .right-down h2
 {
     margin: 3.3%;
-}
+}*/
 
 .calanques
 {
@@ -634,7 +662,7 @@ i
     object-fit: cover;
 }
 
-.right-up
+.act-link-4
 {
     flex-direction: column;
     overflow: hidden;
@@ -645,7 +673,7 @@ i
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
-.right-down
+.act-link-5
 {
     height: 230px;
     width: 100%;
@@ -660,9 +688,16 @@ i
     overflow: hidden;
     object-fit: cover;
     width: 100%;
+    height: 73.5%;
 }
 
-.left:hover, .right-top:hover, .right-bottom:hover, .right:hover, .right-up:hover, .right-down:hover
+.act-link-4 h2, .act-link-5 h2
+{
+    font-size: 20px;
+    padding: 0 0 3% 7%;
+}
+
+.element a:hover
 {
     box-shadow: 0 0 20px rgba(0, 101, 252, 0.5);
     transition-duration: .3s;
