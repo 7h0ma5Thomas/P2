@@ -29,9 +29,10 @@ header
 
 nav 
 {
-    width: 100%;
-    height: 90px;
-    justify-content: flex-end;
+    width: 400px;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
 nav a 
@@ -520,7 +521,7 @@ i
 
 .element
 {
-    width: 450px;
+    width: 100%;
     height: 100%;
     flex-direction: column;
     align-content: space-between;
@@ -528,10 +529,16 @@ i
     padding: 25px;
 }
 
+.act-link
+{
+    width: 100%;
+    height: 100%;
+}
+
 .left
 {
     flex-direction: column;
-    height: 480px;
+    height: 100%;
     width: 100%;
     border-radius: 30px;
     overflow: hidden;
@@ -555,7 +562,7 @@ i
 
 .right-bottom h2
 {
-    margin: 3%;
+    margin: 3.5%;
 }
 
 .vieux
@@ -568,9 +575,9 @@ i
 .right-top
 {
     flex-direction: column;
-    height: 240px;
+    height: 260px;
     width: 100%;
-    margin-bottom: 15%;
+    margin-bottom: 60px;
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
@@ -579,7 +586,7 @@ i
 .right-bottom
 {
     flex-direction: column;;
-    height: 180px;
+    height: 200px;
     width: 100%;
     border-radius: 30px;
     overflow: hidden;
@@ -598,7 +605,7 @@ i
 .right
 {
     flex-direction: column;
-    height: 480px;
+    height: 100%;
     width: 100%;
     border-radius: 30px;
     overflow: hidden;
@@ -617,7 +624,7 @@ i
 
 .right-up h2, .right-down h2
 {
-    margin: 2%;
+    margin: 3.3%;
 }
 
 .calanques
@@ -631,16 +638,16 @@ i
 {
     flex-direction: column;
     overflow: hidden;
-    height: 210px;
+    height: 230px;
     width: 100%;
-    margin-bottom: 15%;
+    margin-bottom: 60px;
     border-radius: 30px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .right-down
 {
-    height: 210px;
+    height: 230px;
     width: 100%;
     flex-direction: column; 
     overflow: hidden;
