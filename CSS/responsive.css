@@ -8,6 +8,11 @@
         width: 99.9%;
     }
 
+    .photos, .pics
+    {
+        object-fit: cover;
+    }
+
     .accommodation
     {
         margin-right: 0;
@@ -40,15 +45,79 @@
 
     .tile
     {
-        width: 30%;
+        width: 32%;
+    }
+
+    .body
+    {
+        padding: 5% 7.5% 2.5% 7.5%;
+    }
+
+    .title 
+    {
+        font-size: 17px;
     }
 
     .star
     {
-        position: absolute;
-        margin-top: 130px;
+        /*position: relative;*/
+        margin-top: 70px;
     }
 }
+
+@media all and (max-width: 1173px)
+{
+    .photos, .pics
+    {
+        object-fit: cover;
+    }
+
+    .body
+    {
+        padding: 4% 0 0 4%;
+    }
+
+    .price
+    {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .star
+    {
+        margin-top: 80px;
+    }
+}
+
+@media all and (max-width: 1007px)
+{
+    .photos, .pics
+    {
+        object-fit: cover;
+    }
+
+    .body
+    {
+        padding: 4% 0 0 4%;
+    }
+
+    .title
+    {
+        font-size: 16px;
+    }
+
+    .price
+    {
+        margin-top: 8px;
+        font-size: 15px;
+    }
+
+    .star
+    {
+        margin-top: 80px;
+    }
+}
+
 
 /* Tablet */
 
@@ -69,7 +138,7 @@
     nav
     {
         margin-left: 0px;
-        justify-content: flex-start; 
+        justify-content: flex-end; 
     }
 
 /* section 1 : search bar */
@@ -140,6 +209,11 @@
         justify-content: space-evenly;
         margin-bottom: 50px;
         height: 100%;
+    }
+
+    .photos, .pics
+    {
+        object-fit: cover;
     }
 
 /* Accommodations in Marseille */
@@ -238,12 +312,17 @@
         width: 100%;
         padding: 5% 7.5% 2.5% 7.5%;
     }
+
+    .title
+    {
+        font-size: 18px;
+    }
     
     .star
     {
         width: 100px;
         position: absolute;
-        margin: 130px 0 0 0;
+        margin: 140px 0 0 0;
     }
 
 /* section 3 */
@@ -364,12 +443,13 @@
 
     .nav
     {
-        width: 100%;  
+        width: 100%;
     }
 
     nav a
     {
-        padding: 20px 60px 20px 40px;
+        /*padding: 20px 60px 20px 40px;*/
+        padding: 20px 60px 20px 0px;
         border-bottom: 4px solid #F2F2F2;
     }
     
@@ -494,6 +574,11 @@
         padding: 0;
     }
 
+    .photos, .pics
+    {
+        object-fit: cover;
+    }
+
 /* Accommodations in Marseille */
 
     .accommodation
@@ -597,13 +682,19 @@
 
     .body
     {
-        padding: 20px 0 0 30px;
+        padding: 10px 0 0 20px;
         flex-direction: column;
+    }
+
+    .title
+    {
+        font-size: 18px;
     }
 
     .star
     {
-        margin: 130px 0 0 0;
+        position: absolute;
+        margin: 140px 0 0 0;
     }
 
     .card:hover
@@ -682,7 +773,7 @@
 
     footer
     {
-        height: 400px;
+        height: 100%;
         flex-direction: column;
         padding: 0 0 0 20px;
         margin-top: 50px;
@@ -691,6 +782,7 @@
     .prop, .our, .sos
     {
         align-items: flex-start;
+        width: 80%;
     }
 
     footer a
@@ -698,3 +790,4 @@
         padding: 0 0 10px 0;
     }
 }
+
